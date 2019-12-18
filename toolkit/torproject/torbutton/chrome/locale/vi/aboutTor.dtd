@@ -1,0 +1,37 @@
+<!--
+   - Copyright (c) 2018, The Tor Project, Inc.
+   - See LICENSE for licensing information.
+   - vim: set sw=2 sts=2 ts=8 et syntax=xml:
+  -->
+
+<!ENTITY aboutTor.title "Thông tin về Tor">
+
+<!ENTITY aboutTor.viewChangelog.label "Xem nhật kí thay dổi">
+
+<!ENTITY aboutTor.ready.label "Truy cập Internet. Một cách riêng tư.">
+<!ENTITY aboutTor.ready2.label "Bạn đã sẵn sàng cho trải nghiệm duyệt web riêng tư nhất trên thế giới.">
+<!ENTITY aboutTor.failure.label "Có Lỗi Xảy Ra!">
+<!ENTITY aboutTor.failure2.label "Tor không hoạt động trên trình duyệt này.">
+
+<!ENTITY aboutTor.search.label "Tìm kiếm với DuckDuckGo">
+<!ENTITY aboutTor.searchDDGPost.link "https://duckduckgo.com">
+
+<!ENTITY aboutTor.torbrowser_user_manual_questions.label "Những câu hỏi?">
+<!ENTITY aboutTor.torbrowser_user_manual_link.label "Xem qua Hướng dẫn sử dụng trình duyệt Tor »">
+<!-- The next two entities are used within the browser's Help menu. -->
+<!ENTITY aboutTor.torbrowser_user_manual.accesskey "M">
+<!ENTITY aboutTor.torbrowser_user_manual.label "Hướng dẫn sử dụng trình duyệt Tor">
+
+<!ENTITY aboutTor.tor_mission.label "The Tor Project là một tổ chức phi lợi nhuận 501(c)(3) của Hoa Kỳ nhằm thúc đẩy quyền con người và tự do bằng cách tạo và triển khai các công nghệ đảm bảo quyền riêng tư và ẩn danh miễn phí và dựa trên mã nguồn mở, hỗ trợ tính sẵn có và sử dụng không hạn chế của chúng, và giúp phổ biến hơn nữa sự hiểu biết về tính khoa học của những công nghệ này đối với cộng đồng.">
+<!ENTITY aboutTor.getInvolved.label "Tham gia »">
+<!ENTITY aboutTor.getInvolved.link "https://www.torproject.org/getinvolved/volunteer.html.en">
+
+<!ENTITY aboutTor.newsletter.tagline "Nhận thông tin mới nhất từ Tor được gửi tới hộp thư của bạn.">
+<!ENTITY aboutTor.newsletter.link_text "Đăng kí nhận tin tức từ Tor.">
+<!ENTITY aboutTor.donationBanner.line2e "Giữ cho Tor trở nên mạnh mẽ.">
+<!ENTITY aboutTor.donationBanner.buttonA "Đóng góp Ngay bây giờ">
+
+<!-- End of year 2019 Fundraising campaign -->
+<!ENTITY aboutTor.ey2019.mozilla "Hãy đóng góp ngay hôm nay, và Mozilla sẽ đóng góp tương ứng với phần của bạn.">
+<!ENTITY aboutTor.ey2019.tracking "Tracking, surveillance, and censorship are widespread online.">
+<!ENTITY aboutTor.ey2019.takeback "Take back the Internet with Tor">

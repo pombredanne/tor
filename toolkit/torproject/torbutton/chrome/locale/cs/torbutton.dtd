@@ -1,0 +1,52 @@
+<!ENTITY torbutton.context_menu.new_identity "Nova identita">
+<!ENTITY torbutton.context_menu.new_identity_key "i">
+<!ENTITY torbutton.context_menu.new_circuit "Nový okruh Toru pro tuto stránku">
+<!ENTITY torbutton.context_menu.new_circuit_key "o">
+<!ENTITY torbutton.context_menu.networksettings "Nastavení sítě Tor...">
+<!ENTITY torbutton.context_menu.networksettings.key "N">
+<!ENTITY torbutton.context_menu.downloadUpdate "Vyhledat aktualizace prohlížeče Tor…">
+<!ENTITY torbutton.context_menu.downloadUpdate.key "a">
+<!ENTITY torbutton.context_menu.cookieProtections "Ochrany cookies…">
+<!ENTITY torbutton.context_menu.cookieProtections.key "c">
+<!ENTITY torbutton.button.tooltip "Klepněte pro inicializaci Torbutton">
+<!ENTITY torbutton.prefs.security_settings "Nastavení zabezpečení prohlížeče Tor">
+<!ENTITY torbutton.cookiedialog.title "Správa ochrany cookies">
+<!ENTITY torbutton.cookiedialog.lockCol "Chráněné">
+<!ENTITY torbutton.cookiedialog.domainCol "Server">
+<!ENTITY torbutton.cookiedialog.nameCol "Název">
+<!ENTITY torbutton.cookiedialog.pathCol "Cesta">
+<!ENTITY torbutton.cookiedialog.protectCookie "Chránit cookies">
+<!ENTITY torbutton.cookiedialog.removeCookie "Odstranit cookies">
+<!ENTITY torbutton.cookiedialog.unprotectCookie "Přestat chránit cookies">
+<!ENTITY torbutton.cookiedialog.removeAllBut "Odstranit všechny nechráněné">
+<!ENTITY torbutton.cookiedialog.saveAllCookies "Chránit nové cookies">
+<!ENTITY torbutton.cookiedialog.doNotSaveAllCookies "Přestat chránit nové cookies">
+<!ENTITY torbutton.prefs.sec_caption "Úroveň zabezpečení">
+<!ENTITY torbutton.prefs.sec_caption_tooltip "Úrovně zabezpečení vám umožňují vypnout některé funkce, kvůli kterým může být váš prohlížeč více náchylný k hackerským útokům.">
+<!ENTITY torbutton.prefs.sec_standard_label "Standardní">
+<!ENTITY torbutton.prefs.sec_standard_description "Všechny funkce prohlížeče Tor jsou zapnuté.">
+<!ENTITY torbutton.prefs.sec_safer_label "Bezpečnější">
+<!ENTITY torbutton.prefs.sec_safer_description "Některé méně bezpečné funkce jsou vypnuty, ale některé stránky nemusí fungovat.">
+<!ENTITY torbutton.prefs.sec_safer_list_label "Při nastavení bezpečnější úrovně:">
+<!ENTITY torbutton.prefs.sec_safest_label "Nejbezpečnější">
+<!ENTITY torbutton.prefs.sec_safest_description "Povolí jen funkce pro zobrazení statických webových stránek a fungování základních služeb. Ovlivněno bude zobrazení obrázků, médií a fungování skriptů.">
+<!ENTITY torbutton.prefs.sec_safest_list_label "Při nastavení nejbezpečnější úrovně:">
+<!ENTITY torbutton.prefs.sec_learn_more_label "Zjistit více">
+<!ENTITY torbutton.prefs.sec_js_on_https_sites_only "JavaScript je na stránkách bez HTTPS vypnut.">
+<!ENTITY torbutton.prefs.sec_js_disabled "JavaScript je ve výchozím nastavení vypnut na všech stránkách.">
+<!ENTITY torbutton.prefs.sec_limit_typography "Některá písma a matematické symboly jsou zablokovány.">
+<!ENTITY torbutton.prefs.sec_limit_graphics_and_typography "Některá písma, matematické symboly a obrázky jsou zablokovány.">
+<!ENTITY torbutton.prefs.sec_click_to_play_media "Audio, video (HTML5 média) a WebGL se přehrávají po kliknutí.">
+<!ENTITY torbutton.prefs.sec_custom_warning "Vlastní">
+<!ENTITY torbutton.prefs.sec_overview "Vypnout některé webové funkce, které mohou být zneužity k ohrožení vaší bezpečnosti a anonymity.">
+<!ENTITY torbutton.prefs.sec_standard_tooltip "Úroveň zabezpečení: běžná">
+<!ENTITY torbutton.prefs.sec_safer_tooltip "Úroveň zabezpečení: bezpečnější">
+<!ENTITY torbutton.prefs.sec_safest_tooltip "Úroveň zabezpečení: nejbezpečnější">
+<!ENTITY torbutton.prefs.sec_custom_summary "Vaše nastavení prohlížeče neodpovídá standardnímu nastavení zabezpečení. Z důvodu ochrany soukromí a zvýšení bezpečnosti vám doporučujeme vybrat si jednu z výchozích bezpečnostních úrovní.">
+<!ENTITY torbutton.prefs.sec_restore_defaults "Obnovit výchozí">
+<!ENTITY torbutton.prefs.sec_advanced_security_settings "Rozšířená bezpečnostní nastavení…">
+<!ENTITY torbutton.circuit_display.title "Tor okruh">
+<!ENTITY torbutton.circuit_display.new_circuit "Nový okruh Toru pro tuto stránku">
+
+<!-- Onion services strings.  Strings are kept here for ease of translation. -->
+<!ENTITY torbutton.onionServices.authPrompt.tooltip "Open onion service client authentication prompt">

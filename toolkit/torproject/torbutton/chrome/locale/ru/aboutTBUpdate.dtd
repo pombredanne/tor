@@ -1,0 +1,8 @@
+<!ENTITY aboutTBUpdate.changelogTitle "Журнал изменений Tor Browser">
+<!ENTITY aboutTBUpdate.updated "Tor Browser обновлен.">
+<!ENTITY aboutTBUpdate.linkPrefix "Самая свежая информация об этой версии — ">
+<!ENTITY aboutTBUpdate.linkLabel  "на нашем сайте">
+<!ENTITY aboutTBUpdate.linkSuffix ".">
+<!ENTITY aboutTBUpdate.version "Версия">
+<!ENTITY aboutTBUpdate.releaseDate "Release Date">
+<!ENTITY aboutTBUpdate.releaseNotes "Примечания к выпуску">

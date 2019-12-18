@@ -1,0 +1,37 @@
+<!--
+   - Copyright (c) 2018, The Tor Project, Inc.
+   - See LICENSE for licensing information.
+   - vim: set sw=2 sts=2 ts=8 et syntax=xml:
+  -->
+
+<!ENTITY aboutTor.title "Informacje na temat Tor'a">
+
+<!ENTITY aboutTor.viewChangelog.label "Pokaż dziennik zmian">
+
+<!ENTITY aboutTor.ready.label "Odkrywaj. Prywatnie.">
+<!ENTITY aboutTor.ready2.label "Jesteś gotowy na najbardziej prywatne doświadczenie przeglądania na świecie.">
+<!ENTITY aboutTor.failure.label "Coś poszło nie tak!">
+<!ENTITY aboutTor.failure2.label "Tor nie działa w tej przeglądarce.">
+
+<!ENTITY aboutTor.search.label "Wyszukaj z DuckDuckGo">
+<!ENTITY aboutTor.searchDDGPost.link "https://duckduckgo.com">
+
+<!ENTITY aboutTor.torbrowser_user_manual_questions.label "Pytania?">
+<!ENTITY aboutTor.torbrowser_user_manual_link.label "Sprawdź naszą instrukcje korzystania z przeglądarki Tor »">
+<!-- The next two entities are used within the browser's Help menu. -->
+<!ENTITY aboutTor.torbrowser_user_manual.accesskey "M">
+<!ENTITY aboutTor.torbrowser_user_manual.label "Instrukcja korzystania z Przeglądarki Tor">
+
+<!ENTITY aboutTor.tor_mission.label "Projekt Tor jest organizacją non-profit US 501(c)(3), wspierającą prawa człowieka i wolności. W jego ramach tworzone są darmowe i otwarte technologie chroniące anonimowość i prywatność. Tor wspiera ich nieograniczoną dostępność i użycie oraz popularyzuje je w świecie nauki i życiu codziennym. ">
+<!ENTITY aboutTor.getInvolved.label "Zaangażuj się »">
+<!ENTITY aboutTor.getInvolved.link "https://www.torproject.org/getinvolved/volunteer.html.en">
+
+<!ENTITY aboutTor.newsletter.tagline "Otrzymuj najnowsze newsy o Tor, prosto do swojej skrzynki.">
+<!ENTITY aboutTor.newsletter.link_text "Zapisz się na Tor News.">
+<!ENTITY aboutTor.donationBanner.line2e "Utrzymuj Tor silnym.">
+<!ENTITY aboutTor.donationBanner.buttonA "Wesprzyj teraz">
+
+<!-- End of year 2019 Fundraising campaign -->
+<!ENTITY aboutTor.ey2019.mozilla "Przekaż dziś, a Mozilla podwoi Twoją dotację.">
+<!ENTITY aboutTor.ey2019.tracking "Tracking, surveillance, and censorship are widespread online.">
+<!ENTITY aboutTor.ey2019.takeback "Take back the Internet with Tor">

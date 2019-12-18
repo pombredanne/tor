@@ -1,0 +1,15 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY  brandShorterName      "Tor Browser">
+<!ENTITY  brandShortName        "Tor Browser">
+<!ENTITY  brandFullName         "Tor Browser">
+<!ENTITY  vendorShortName       "Proyek Tor">
+<!ENTITY  trademarkInfo.part1   "'Tor' dan 'Logo Onion' adalah merek dagang terdaftar Tor Project, Inc.">
+
+<!-- The following strings are for bug #10280's UI. We place them here for our translators -->
+<!ENTITY plugins.installed.find "Klik untuk memuat pengaya sistem yang terpasang">
+<!ENTITY plugins.installed.enable "Fungsikan pengaya">
+<!ENTITY plugins.installed.disable "Nonfungsikan pengaya">
+<!ENTITY plugins.installed.disable.tip "Klik untuk mencegah pemuatan pengaya sistem">

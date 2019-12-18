@@ -1,0 +1,37 @@
+<!--
+   - Copyright (c) 2018, The Tor Project, Inc.
+   - See LICENSE for licensing information.
+   - vim: set sw=2 sts=2 ts=8 et syntax=xml:
+  -->
+
+<!ENTITY aboutTor.title "Um Tor">
+
+<!ENTITY aboutTor.viewChangelog.label "Skoða breytingaannál">
+
+<!ENTITY aboutTor.ready.label "Vafraðu í friði fyrir hnýsni.">
+<!ENTITY aboutTor.ready2.label "Nú er allt klárt fyrir mestu fáanlegu vernd við vafur á netinu.">
+<!ENTITY aboutTor.failure.label "Eitthvað fór úrskeiðis!">
+<!ENTITY aboutTor.failure2.label "Tor virkar ekki í þessum vafra.">
+
+<!ENTITY aboutTor.search.label "Leita með DuckDuckGo">
+<!ENTITY aboutTor.searchDDGPost.link "https://duckduckgo.com">
+
+<!ENTITY aboutTor.torbrowser_user_manual_questions.label "Spurningar?">
+<!ENTITY aboutTor.torbrowser_user_manual_link.label "Skoðaðu notendahandbók Tor-vafrans »">
+<!-- The next two entities are used within the browser's Help menu. -->
+<!ENTITY aboutTor.torbrowser_user_manual.accesskey "M">
+<!ENTITY aboutTor.torbrowser_user_manual.label "Notendahandbók Tor-vafrans">
+
+<!ENTITY aboutTor.tor_mission.label "Tor-verkefnið er skráð sem bandarísk US 501(c)(3) sjálfboðaliðasamtök án gróðamarkmiða, samtök sem hafa mannréttindi og frelsi að leiðarljósi og stefna að þeim markmiðum með gerð og útbreiðslu á tækni til verndar persónuupplýsinga. Sú tækni eigi að vera öllum frjáls og heimil til notkunar, vera opin til skoðunar, enda sé eitt markmiðanna að stuðla að bættum almennum og vísindalegum skilningi á þessum málum.">
+<!ENTITY aboutTor.getInvolved.label "Taktu þátt »">
+<!ENTITY aboutTor.getInvolved.link "https://www.torproject.org/getinvolved/volunteer.html.en">
+
+<!ENTITY aboutTor.newsletter.tagline "Fáðu nýjustu fréttir af Tor beint í pósthólfið þitt.">
+<!ENTITY aboutTor.newsletter.link_text "Skráðu þig til að fá Tor-fréttir.">
+<!ENTITY aboutTor.donationBanner.line2e "Höldum Tor sterku">
+<!ENTITY aboutTor.donationBanner.buttonA "Styrkja núna">
+
+<!-- End of year 2019 Fundraising campaign -->
+<!ENTITY aboutTor.ey2019.mozilla "Gefðu í dag - og Mozilla mun jafna framlag þitt.">
+<!ENTITY aboutTor.ey2019.tracking "Eftirlit, ritskoðun og njósnir er útbreiddar hættur á internetinu.">
+<!ENTITY aboutTor.ey2019.takeback "Taktu stjórnina yfir netvafrinu þínu með Tor">

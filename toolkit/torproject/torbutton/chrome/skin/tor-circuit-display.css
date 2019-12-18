@@ -1,0 +1,157 @@
+/*
+This CSS file is for styling the tor circuit display, which consists of a title,
+a domain, and a bulleted list.
+
+Each bullet in the circuit node list is supposed to represent a Tor circuit node,
+and lines drawn between them to represent Tor network inter-relay connections.
+*/
+
+
+#circuit-display-content {
+  background-image: url(chrome://torbutton/skin/torbutton.svg);
+  background-position: 1em 1em;
+  background-repeat: no-repeat;
+  background-size: 24px auto;
+  background-blend-mode: overlay;
+  cursor: default;
+  padding: 0.5em 0px 0.5em;
+  padding-inline-end: 1em;
+  padding-inline-start: calc(2em + 24px);
+  width: 100%;
+  -moz-context-properties: fill, fill-opacity;
+  fill: currentColor;
+  fill-opacity: .6;
+}
+
+#circuit-display-content:-moz-locale-dir(rtl) {
+  background-position: calc(100% - 1em) 1em;
+}
+
+#circuit-reload-content {
+  cursor: default;
+  padding: 1em 0px 1em;
+  padding-inline-end: 3em;
+  padding-inline-start: calc(2em + 24px);
+  width: 100%;
+}
+
+/* Format the domain text. */
+#circuit-display-domain {
+  opacity: 0.8;
+}
+
+#circuit-div {
+  position: relative;
+  margin-inline-start: 6px;
+}
+
+/* Format the circuit node list. */
+ul#circuit-display-nodes {
+ /* font-family: Arial; */
+  font-size: 16px;
+  line-height: 26px;
+ /* color: black;*/
+  margin-top: 4px;
+  margin-bottom: 2px;
+  padding-inline-start: 4px;
+}
+
+/* Hide default bullets, and draw our own bullets */
+ul#circuit-display-nodes li {
+  background-image: url(chrome://torbutton/skin/tor-circuit-line.svg);
+  background-position: left center;
+  background-repeat: no-repeat;
+  list-style: none;
+  padding-inline-start: 1.5em;
+  white-space: nowrap;
+}
+
+ul#circuit-display-nodes li:dir(rtl) {
+  background-position: right center;
+}
+
+ul#circuit-display-nodes li:first-child {
+  background-image: url(chrome://torbutton/skin/tor-circuit-line-first.svg);
+}
+
+ul#circuit-display-nodes li:last-child {
+  background-image: url(chrome://torbutton/skin/tor-circuit-line-last.svg);
+}
+
+.circuit-guard-help {
+  -moz-context-properties: fill, stroke;
+  fill: #6200a4;
+  stroke: #6200a4;
+}
+
+.circuit-guard-help:-moz-lwtheme-brighttext {
+  fill: #D476FF;
+  stroke: #D476FF;
+}
+
+.circuit-ip-address {
+  font-size: 80%;
+  opacity: 0.4;
+  padding-inline-start: 3px;
+}
+
+.circuit-guard-info {
+  font-size: 80%;
+  font-weight: bold;
+  color: #6200a4;
+  padding-inline-start: 3px;
+}
+
+.circuit-guard-info:-moz-lwtheme-brighttext {
+  color:#D476FF;
+}
+
+#circuit-reload-button {
+  background-color: #0060df;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 10px;
+}
+
+#circuit-reload-button:hover {
+  background-color: #0058cf;
+}
+
+#circuit-reload-button:active {
+  background-color: #0050bf;
+}
+
+#circuit-guard-note-container {
+  margin-top: 10px;
+}
+
+#circuit-guard-note-container div {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.circuit-guard-name {
+  font-weight: bold;
+  color: #6200a4;
+}
+
+.circuit-guard-name:-moz-lwtheme-brighttext {
+  color:#D476FF;
+}
+
+.circuit-link {
+  cursor: pointer;
+  color: #0000ee;
+}
+
+
+.circuit-link:-moz-lwtheme-brighttext {
+  color: #A9A9A9;
+}
+
+.circuit-link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,52 @@
+<!ENTITY torbutton.context_menu.new_identity "ახალი ვინაობა">
+<!ENTITY torbutton.context_menu.new_identity_key "ვ">
+<!ENTITY torbutton.context_menu.new_circuit "ახალი Tor-წრედი ამ საიტისთვის">
+<!ENTITY torbutton.context_menu.new_circuit_key "წ">
+<!ENTITY torbutton.context_menu.networksettings "Tor-ქსელის პარამეტრები...">
+<!ENTITY torbutton.context_menu.networksettings.key "ქ">
+<!ENTITY torbutton.context_menu.downloadUpdate "Tor-ბრაუზერის განახლებებზე შემოწმება...">
+<!ENTITY torbutton.context_menu.downloadUpdate.key "გ">
+<!ENTITY torbutton.context_menu.cookieProtections "ფუნთუშების დაცვა...">
+<!ENTITY torbutton.context_menu.cookieProtections.key "ფ">
+<!ENTITY torbutton.button.tooltip "დააწკაპეთ Torbutton-ის გასაშვებად">
+<!ENTITY torbutton.prefs.security_settings "Tor-ბრაუზერის უსაფრთხოების პარამეტრები">
+<!ENTITY torbutton.cookiedialog.title "ფუნთუშების უსაფრთხოების მართვა">
+<!ENTITY torbutton.cookiedialog.lockCol "დაცულია">
+<!ENTITY torbutton.cookiedialog.domainCol "მისამართი">
+<!ENTITY torbutton.cookiedialog.nameCol "სახელი">
+<!ENTITY torbutton.cookiedialog.pathCol "მდებარეობა">
+<!ENTITY torbutton.cookiedialog.protectCookie "ფუნთუშის დაცვა">
+<!ENTITY torbutton.cookiedialog.removeCookie "ფუნთუშის მოცილება">
+<!ENTITY torbutton.cookiedialog.unprotectCookie "ფუნთუშის დაცვის მოხსნა">
+<!ENTITY torbutton.cookiedialog.removeAllBut "ყველას მოცილება დაცულების გარდა">
+<!ENTITY torbutton.cookiedialog.saveAllCookies "ახალი ფუნთუშების დაცვა">
+<!ENTITY torbutton.cookiedialog.doNotSaveAllCookies "ახალი ფუნთუშების დაცვის შეჩერება">
+<!ENTITY torbutton.prefs.sec_caption "უსაფრთხოების დონე">
+<!ENTITY torbutton.prefs.sec_caption_tooltip "უსაფრთხოების ასარჩევი რბია, საშუალებას გაძლევთ გათიშოთ ბრაუზერის შესაძლებლობების ნაწილი, უნებართვო შეღწევის მცდელობებისგან უკეთ თავდასაცავად.">
+<!ENTITY torbutton.prefs.sec_standard_label "ჩვეულებრივი">
+<!ENTITY torbutton.prefs.sec_standard_description "Tor-ბრაუზერისა და ვებსაიტის ყველა შესაძლებლობა ჩართულია.">
+<!ENTITY torbutton.prefs.sec_safer_label "მეტად დაცული">
+<!ENTITY torbutton.prefs.sec_safer_description "გაითიშება ვებსაიტის საფრთხისშემცველი შესაძლებლობები, სავარაუდოდ საიტების ნაწილი ვერ იმუშავებს გამართულად.">
+<!ENTITY torbutton.prefs.sec_safer_list_label "მეტად დაცული პარამეტრებისას:">
+<!ENTITY torbutton.prefs.sec_safest_label "სრულიად დაცული">
+<!ENTITY torbutton.prefs.sec_safest_description "დაშვებულია მხოლოდ ის შესაძლებლობები, რომლებსაც საჭიროებს უცვლელი შიგთავსის მქონე საიტები და ძირითადი მომსახურებები. ცვლილებები შეეხება სურათებს, ფაილებსა და სკრიპტებს.">
+<!ENTITY torbutton.prefs.sec_safest_list_label "სრულიად დაცული პარამეტრებისას:">
+<!ENTITY torbutton.prefs.sec_learn_more_label "იხილეთ ვრცლად">
+<!ENTITY torbutton.prefs.sec_js_on_https_sites_only "JavaScript გათიშულია HTTPS-ს არმქონე ყველა საიტზე.">
+<!ENTITY torbutton.prefs.sec_js_disabled "JavaScript გათიშულია ყველა საიტზე ნაგულისხმევად.">
+<!ENTITY torbutton.prefs.sec_limit_typography "შრიფტებისა და მათემატიკური სიმბოლოების ნაწილი გათიშულია.">
+<!ENTITY torbutton.prefs.sec_limit_graphics_and_typography "შრიფტების, ხატულების, მათემატიკური სიმბოლოებისა და სურათების ნაწილი გათიშულია.">
+<!ENTITY torbutton.prefs.sec_click_to_play_media "ხმოვანი და ვიდეოფაილები (HTML5), აგრეთვე WebGL ეშვება მხოლოდ დაწკაპებით.">
+<!ENTITY torbutton.prefs.sec_custom_warning "მითითებული">
+<!ENTITY torbutton.prefs.sec_overview "გაითიშება შესაძლებლობების ნაწილი, რომლებიც უსაფრთხოებაზე შეტევებისა და პირადი მონაცემების ხელყოფისთვის შეიძლება გამოიყენონ.">
+<!ENTITY torbutton.prefs.sec_standard_tooltip "უსაფრთხოების დონე : ჩვეულებრივი">
+<!ENTITY torbutton.prefs.sec_safer_tooltip "უსაფრთხოების დონე : მეტად დაცული">
+<!ENTITY torbutton.prefs.sec_safest_tooltip "უსაფრთხოების დონე : სრულიად დაცული">
+<!ENTITY torbutton.prefs.sec_custom_summary "თქვენ მიერ მითითებული პარამეტრები ბრაუზერში, არაა მისაღები უსაფრთხოებისთვის. პირადი მონაცემების სათანადოდ დაცვის უზრუნველსაყოფად, გირჩევთ შეარჩიოთ უსაფრთხოების ნაგულისხმევი დონეებიდან რომელიმე.">
+<!ENTITY torbutton.prefs.sec_restore_defaults "ნაგულისხმევის აღდგენა">
+<!ENTITY torbutton.prefs.sec_advanced_security_settings "უსაფრთხოების დამატებითი პარამ.">
+<!ENTITY torbutton.circuit_display.title "Tor-წრედი">
+<!ENTITY torbutton.circuit_display.new_circuit "ახალი წრედი ამ საიტისთვის">
+
+<!-- Onion services strings.  Strings are kept here for ease of translation. -->
+<!ENTITY torbutton.onionServices.authPrompt.tooltip "გახსენით onion-მომსახურების კლიენტის დამოწმების არე">

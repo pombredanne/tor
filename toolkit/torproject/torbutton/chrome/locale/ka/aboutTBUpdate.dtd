@@ -1,0 +1,8 @@
+<!ENTITY aboutTBUpdate.changelogTitle "Tor-ბრაუზერის ცვლილებების ისტორია">
+<!ENTITY aboutTBUpdate.updated "Tor-ბრაუზერი განახლებულია.">
+<!ENTITY aboutTBUpdate.linkPrefix "ამ გამოშვების შესახებ უახლესი ინფორმაციის მისაღებად, ">
+<!ENTITY aboutTBUpdate.linkLabel  "ეწვიეთ ჩვენს ვებსაიტს">
+<!ENTITY aboutTBUpdate.linkSuffix ".">
+<!ENTITY aboutTBUpdate.version "ვერსია">
+<!ENTITY aboutTBUpdate.releaseDate "გამოშვების თარიღი">
+<!ENTITY aboutTBUpdate.releaseNotes "გამოშვების შენიშვნები">

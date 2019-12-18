@@ -1,0 +1,52 @@
+<!ENTITY torbutton.context_menu.new_identity "Danh tính mới">
+<!ENTITY torbutton.context_menu.new_identity_key "I">
+<!ENTITY torbutton.context_menu.new_circuit "Mạch nối Tor mới cho trang này">
+<!ENTITY torbutton.context_menu.new_circuit_key "C">
+<!ENTITY torbutton.context_menu.networksettings "Những cài đặt Mạng Tor...">
+<!ENTITY torbutton.context_menu.networksettings.key "N">
+<!ENTITY torbutton.context_menu.downloadUpdate "Kiểm tra Bản cập nhật của trình duyệt Tor...">
+<!ENTITY torbutton.context_menu.downloadUpdate.key "U">
+<!ENTITY torbutton.context_menu.cookieProtections "Những sự bảo vệ Cookie...">
+<!ENTITY torbutton.context_menu.cookieProtections.key "C">
+<!ENTITY torbutton.button.tooltip "Bấm chuột để khởi chạy Torbutton">
+<!ENTITY torbutton.prefs.security_settings "Những cài đặt bảo mật cho trình duyệt Tor">
+<!ENTITY torbutton.cookiedialog.title "Manage Cookie Protections">
+<!ENTITY torbutton.cookiedialog.lockCol "Protected">
+<!ENTITY torbutton.cookiedialog.domainCol "Host">
+<!ENTITY torbutton.cookiedialog.nameCol "Name">
+<!ENTITY torbutton.cookiedialog.pathCol "Path">
+<!ENTITY torbutton.cookiedialog.protectCookie "Protect Cookie">
+<!ENTITY torbutton.cookiedialog.removeCookie "Remove Cookie">
+<!ENTITY torbutton.cookiedialog.unprotectCookie "Unprotect Cookie">
+<!ENTITY torbutton.cookiedialog.removeAllBut "Remove All But Protected">
+<!ENTITY torbutton.cookiedialog.saveAllCookies "Protect New Cookies">
+<!ENTITY torbutton.cookiedialog.doNotSaveAllCookies "Do Not Protect New Cookies">
+<!ENTITY torbutton.prefs.sec_caption "Mức độ Bảo mật">
+<!ENTITY torbutton.prefs.sec_caption_tooltip "Những Người điều chỉnh an ninh để cho bạn vô hiệu một vài tính năng của trình duyệt mà có thể làm trình duyệt của bạn dễ bị tổn thương đổi với những cố gắng tấn công.">
+<!ENTITY torbutton.prefs.sec_standard_label "Chuẩn">
+<!ENTITY torbutton.prefs.sec_standard_description "Tất cả các tính năng của Trình duyệt Tor và trang web đều được bật.">
+<!ENTITY torbutton.prefs.sec_safer_label "An toàn hơn">
+<!ENTITY torbutton.prefs.sec_safer_description "Vô hiệu hóa tính năng website thường gây nguy hiểm, khiến một số trang web mất chức năng.">
+<!ENTITY torbutton.prefs.sec_safer_list_label "Ở cài đặt an toàn hơn:">
+<!ENTITY torbutton.prefs.sec_safest_label "An toàn nhất">
+<!ENTITY torbutton.prefs.sec_safest_description "Chỉ cho phép các tính năng trang web được yêu cầu cho các trang web tĩnh và các dịch vụ cơ bản. Những thay đổi này ảnh hưởng đến hình ảnh, phương tiện và tập lệnh.">
+<!ENTITY torbutton.prefs.sec_safest_list_label "Ở cài đặt an toàn nhất:">
+<!ENTITY torbutton.prefs.sec_learn_more_label "Biết thêm">
+<!ENTITY torbutton.prefs.sec_js_on_https_sites_only "JavaScript bị vô hiệu trên các trang web không có HTTPS.">
+<!ENTITY torbutton.prefs.sec_js_disabled "JavaScript mặc định bị vô hiệu trên tất cả các trang.">
+<!ENTITY torbutton.prefs.sec_limit_typography "Một số phông chữ và ký hiêu toán học bị vô hiệu.">
+<!ENTITY torbutton.prefs.sec_limit_graphics_and_typography "Một số phông chữ, biểu tượng, và hình ảnh bị vô hiệu.">
+<!ENTITY torbutton.prefs.sec_click_to_play_media "Audio and video (HTML5 media), and WebGL are click-to-play.">
+<!ENTITY torbutton.prefs.sec_custom_warning "Tùy chỉnh">
+<!ENTITY torbutton.prefs.sec_overview "Disable certain web features that can be used to attack your security and anonymity.">
+<!ENTITY torbutton.prefs.sec_standard_tooltip "Security Level : Standard">
+<!ENTITY torbutton.prefs.sec_safer_tooltip "Security Level : Safer">
+<!ENTITY torbutton.prefs.sec_safest_tooltip "Security Level : Safest">
+<!ENTITY torbutton.prefs.sec_custom_summary "Những điều chỉnh trong trình duyệt của bạn vừa tạo ra những lỗi bảo mật bất thường. Vì những lý do bảo mật và riêng tư, chúng tôi khuyến cáo bạn chọn những cấp độ bảo mật mặc định khác.">
+<!ENTITY torbutton.prefs.sec_restore_defaults "Khôi phục trạng thái mặc định">
+<!ENTITY torbutton.prefs.sec_advanced_security_settings "Advanced Security Settings…">
+<!ENTITY torbutton.circuit_display.title "Mạch Tor">
+<!ENTITY torbutton.circuit_display.new_circuit "Mạch Tor mới cho trang này">
+
+<!-- Onion services strings.  Strings are kept here for ease of translation. -->
+<!ENTITY torbutton.onionServices.authPrompt.tooltip "Open onion service client authentication prompt">

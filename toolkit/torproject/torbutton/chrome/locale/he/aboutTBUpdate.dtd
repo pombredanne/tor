@@ -1,0 +1,8 @@
+<!ENTITY aboutTBUpdate.changelogTitle "יומן שינויים של דפדפן Tor">
+<!ENTITY aboutTBUpdate.updated "דפדפן Tor עודכן.">
+<!ENTITY aboutTBUpdate.linkPrefix "למידע המעודכן ביותר לגבי שחרור זה, ">
+<!ENTITY aboutTBUpdate.linkLabel  "בקר באתר שלנו">
+<!ENTITY aboutTBUpdate.linkSuffix ".">
+<!ENTITY aboutTBUpdate.version "גרסה">
+<!ENTITY aboutTBUpdate.releaseDate "תאריך שחרור">
+<!ENTITY aboutTBUpdate.releaseNotes "הערות שחרור">

@@ -1,0 +1,37 @@
+<!--
+   - Copyright (c) 2018, The Tor Project, Inc.
+   - See LICENSE for licensing information.
+   - vim: set sw=2 sts=2 ts=8 et syntax=xml:
+  -->
+
+<!ENTITY aboutTor.title "About Tor">
+
+<!ENTITY aboutTor.viewChangelog.label "View Changelog">
+
+<!ENTITY aboutTor.ready.label "Explore. Privately.">
+<!ENTITY aboutTor.ready2.label "You’re ready for the world’s most private browsing experience.">
+<!ENTITY aboutTor.failure.label "Something Went Wrong!">
+<!ENTITY aboutTor.failure2.label "Tor is not working in this browser.">
+
+<!ENTITY aboutTor.search.label "Search with DuckDuckGo">
+<!ENTITY aboutTor.searchDDGPost.link "https://duckduckgo.com">
+
+<!ENTITY aboutTor.torbrowser_user_manual_questions.label "Questions?">
+<!ENTITY aboutTor.torbrowser_user_manual_link.label "Check our Tor Browser Manual »">
+<!-- The next two entities are used within the browser's Help menu. -->
+<!ENTITY aboutTor.torbrowser_user_manual.accesskey "M">
+<!ENTITY aboutTor.torbrowser_user_manual.label "Tor Browser Manual">
+
+<!ENTITY aboutTor.tor_mission.label "The Tor Project is a US 501(c)(3) non-profit organization advancing human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, supporting their unrestricted availability and use, and furthering their scientific and popular understanding.">
+<!ENTITY aboutTor.getInvolved.label "Get Involved »">
+<!ENTITY aboutTor.getInvolved.link "https://www.torproject.org/getinvolved/volunteer.html.en">
+
+<!ENTITY aboutTor.newsletter.tagline "Get the latest news from Tor straight to your inbox.">
+<!ENTITY aboutTor.newsletter.link_text "Sign up for Tor News.">
+<!ENTITY aboutTor.donationBanner.line2e "Keep Tor strong.">
+<!ENTITY aboutTor.donationBanner.buttonA "Donate Now">
+
+<!-- End of year 2019 Fundraising campaign -->
+<!ENTITY aboutTor.ey2019.mozilla "Give today, and Mozilla will match your donation.">
+<!ENTITY aboutTor.ey2019.tracking "Tracking, surveillance, and censorship are widespread online.">
+<!ENTITY aboutTor.ey2019.takeback "Take back the Internet with Tor">

@@ -1,0 +1,52 @@
+<!ENTITY torbutton.context_menu.new_identity "Nýtt auðkenni">
+<!ENTITY torbutton.context_menu.new_identity_key "I">
+<!ENTITY torbutton.context_menu.new_circuit "Ný Tor-rás fyrir þetta vefsvæði">
+<!ENTITY torbutton.context_menu.new_circuit_key "C">
+<!ENTITY torbutton.context_menu.networksettings "Netkerfisstillingar Tor…">
+<!ENTITY torbutton.context_menu.networksettings.key "N">
+<!ENTITY torbutton.context_menu.downloadUpdate "Athugaðu með uppfærslur Tor-vafra...">
+<!ENTITY torbutton.context_menu.downloadUpdate.key "U">
+<!ENTITY torbutton.context_menu.cookieProtections "Varnir gegn vefkökum...">
+<!ENTITY torbutton.context_menu.cookieProtections.key "C">
+<!ENTITY torbutton.button.tooltip "Smelltu til að kveikja á Tor-hnapp">
+<!ENTITY torbutton.prefs.security_settings "Öryggisstillingar Tor-vafrans">
+<!ENTITY torbutton.cookiedialog.title "Sýsla með varnir gegn vefkökum">
+<!ENTITY torbutton.cookiedialog.lockCol "Varið">
+<!ENTITY torbutton.cookiedialog.domainCol "Hýsilvél">
+<!ENTITY torbutton.cookiedialog.nameCol "Heiti">
+<!ENTITY torbutton.cookiedialog.pathCol "Slóð">
+<!ENTITY torbutton.cookiedialog.protectCookie "Vernda vefköku">
+<!ENTITY torbutton.cookiedialog.removeCookie "Fjarlægja vefköku">
+<!ENTITY torbutton.cookiedialog.unprotectCookie "Afvernda vefköku">
+<!ENTITY torbutton.cookiedialog.removeAllBut "Fjarlægja allar aðrar en verndaðar">
+<!ENTITY torbutton.cookiedialog.saveAllCookies "Vernda nýjar vefkökur">
+<!ENTITY torbutton.cookiedialog.doNotSaveAllCookies "Ekki vernda nýjar vefkökur">
+<!ENTITY torbutton.prefs.sec_caption "Öryggisstig">
+<!ENTITY torbutton.prefs.sec_caption_tooltip "Öryggisstillingasleðinn getur gert óvirka ýmsa þá eiginleika vafrans sem gætu gert vafrann viðkvæmari fyrir árásum hakkara.">
+<!ENTITY torbutton.prefs.sec_standard_label "Staðlað">
+<!ENTITY torbutton.prefs.sec_standard_description "Allir eiginleikar Tor-vafrans og vefsvæðisins eru virkjaðir.">
+<!ENTITY torbutton.prefs.sec_safer_label "Öruggara">
+<!ENTITY torbutton.prefs.sec_safer_description "Gerir óvirka ýmsa eiginleika vefsvæða sem oft eru hættulegir, en veldur því að sum vefsvæði hætta að virka eins og þau eiga að gera.">
+<!ENTITY torbutton.prefs.sec_safer_list_label "Með öruggari stillingum:">
+<!ENTITY torbutton.prefs.sec_safest_label "Öruggast">
+<!ENTITY torbutton.prefs.sec_safest_description "Leyfir aðeins þá eiginleika vefsvæða sem krafist er fyrir beinan lestur (static sites) og grunnþjónustur. Þessar breytingar hafa áhrif á myndir, margmiðlunargögn og skriftur.">
+<!ENTITY torbutton.prefs.sec_safest_list_label "Með öruggustu stillingum:">
+<!ENTITY torbutton.prefs.sec_learn_more_label "Fræðast frekar">
+<!ENTITY torbutton.prefs.sec_js_on_https_sites_only "JavaScript er óvirkt á öllum ekki-HTTPS vefjum.">
+<!ENTITY torbutton.prefs.sec_js_disabled "JavaScript er sjálfgefið óvirkt á öllum vefsvæðum.">
+<!ENTITY torbutton.prefs.sec_limit_typography "Sumt letur og stærðfræðitákn eru óvirk.">
+<!ENTITY torbutton.prefs.sec_limit_graphics_and_typography "Sumt letur, táknmyndir, myndir og stærðfræðitákn eru óvirk.">
+<!ENTITY torbutton.prefs.sec_click_to_play_media "Hljóð og myndskeið (HTML5-gagnamiðla) ásamt WebGL þarf að smella á til að spila.">
+<!ENTITY torbutton.prefs.sec_custom_warning "Sérsniðið">
+<!ENTITY torbutton.prefs.sec_overview "Gera ýmsa eiginleika vefsíðna óvirka, sem hægt væri að nota til árása á öryggi þitt og gagnaleynd.">
+<!ENTITY torbutton.prefs.sec_standard_tooltip "Öryggisstig: Staðlað">
+<!ENTITY torbutton.prefs.sec_safer_tooltip "Öryggisstig: Öruggara">
+<!ENTITY torbutton.prefs.sec_safest_tooltip "Öryggisstig: Öruggast">
+<!ENTITY torbutton.prefs.sec_custom_summary "Sérsniðnar kjörstillingar vafrans þíns valda mjög óvenjulegum öryggisstillingum. Til að uppfylla sem best öryggi og gagnaleynd, mælum við með því að þú veljir eitt af sjálfgefnum öryggisstigum.">
+<!ENTITY torbutton.prefs.sec_restore_defaults "Frumstilla á sjálfgefið">
+<!ENTITY torbutton.prefs.sec_advanced_security_settings "Ítarlegar öryggisstillingar…">
+<!ENTITY torbutton.circuit_display.title "Tor-rás">
+<!ENTITY torbutton.circuit_display.new_circuit "Ný rás fyrir þetta vefsvæði">
+
+<!-- Onion services strings.  Strings are kept here for ease of translation. -->
+<!ENTITY torbutton.onionServices.authPrompt.tooltip "Open onion service client authentication prompt">

@@ -1,0 +1,37 @@
+<!--
+   - Copyright (c) 2018, The Tor Project, Inc.
+   - See LICENSE for licensing information.
+   - vim: set sw=2 sts=2 ts=8 et syntax=xml:
+  -->
+
+<!ENTITY aboutTor.title "Tor-ის შესახებ">
+
+<!ENTITY aboutTor.viewChangelog.label "ცვლილებების ნახვა">
+
+<!ENTITY aboutTor.ready.label "მოინახულეთ. უსაფრთხოდ.">
+<!ENTITY aboutTor.ready2.label "თქვენ მზად ხართ მსოფლიოში ყველაზე მეტად დაცული და პირადი ბრაუზერის გამოყენებისთვის.">
+<!ENTITY aboutTor.failure.label "რაღაც რიგზე ვერაა!">
+<!ENTITY aboutTor.failure2.label "Tor არ მუშაობს ამ ბრაუზერში.">
+
+<!ENTITY aboutTor.search.label " ძიება DuckDuckGo-თი">
+<!ENTITY aboutTor.searchDDGPost.link "https://duckduckgo.com">
+
+<!ENTITY aboutTor.torbrowser_user_manual_questions.label "კითხვები გაქვთ?">
+<!ENTITY aboutTor.torbrowser_user_manual_link.label "გაეცანით Tor-ბრაუზერის სახელმძღვანელოს »">
+<!-- The next two entities are used within the browser's Help menu. -->
+<!ENTITY aboutTor.torbrowser_user_manual.accesskey "ხ">
+<!ENTITY aboutTor.torbrowser_user_manual.label "Tor-ბრაუზერის სახელმძღვანელო">
+
+<!ENTITY aboutTor.tor_mission.label "Tor-პროექტი წარმოადგენს 501(c)(3) არამომგებიან დაწესებულებას, რომელიც ხელს უწყობს ადამიანის უფლებების დაცვისა და თავისუფლების ხარისხის გაუმჯობესებას, უფასო და ღია წყაროს მქონე, ვინაობისა და პირადი მონაცემების გამჟღავნებისგან ასარიდებელი საშუალებების შექმნითა და გავრცელებით, მათზე შეუზღუდავი წვდომისა და გამოყენების უზრუნველყოფით, შემდგომ კი მათთან დაკავშირებით მეცნიერული გაგებისა და საზოგადოების ცნობიერების დონის ამაღლებით.">
+<!ENTITY aboutTor.getInvolved.label "შემოგვიერთდით »">
+<!ENTITY aboutTor.getInvolved.link "https://www.torproject.org/getinvolved/volunteer.html.en">
+
+<!ENTITY aboutTor.newsletter.tagline "მიიღეთ სიახლეები Tor-ისგან, პირდაპირ თქვენს საფოსტო ყუთში.">
+<!ENTITY aboutTor.newsletter.link_text "გამოიწერეთ Tor-ის სიახლეები.">
+<!ENTITY aboutTor.donationBanner.line2e "შეინარჩუნეთ Tor ძლიერი.">
+<!ENTITY aboutTor.donationBanner.buttonA "გაიღეთ თანხა">
+
+<!-- End of year 2019 Fundraising campaign -->
+<!ENTITY aboutTor.ey2019.mozilla "გაეცით დღესვე და Mozilla გააორმაგებს თქვენს შემოწირულობას.">
+<!ENTITY aboutTor.ey2019.tracking "მეთვალყურეობა, ზედამხედველობა და აკრძალვები მთელ ინტერნეტშია გავრცელებული.">
+<!ENTITY aboutTor.ey2019.takeback "დაიბრუნეთ ინტერნეტი Tor-ით.">

@@ -1,0 +1,37 @@
+<!--
+   - Copyright (c) 2018, The Tor Project, Inc.
+   - See LICENSE for licensing information.
+   - vim: set sw=2 sts=2 ts=8 et syntax=xml:
+  -->
+
+<!ENTITY aboutTor.title "За Tor">
+
+<!ENTITY aboutTor.viewChangelog.label "Види Листа на промени">
+
+<!ENTITY aboutTor.ready.label "Истражувај. Приватно.">
+<!ENTITY aboutTor.ready2.label "Подготвени сте за најприватното прелистувачко искуство во светот.">
+<!ENTITY aboutTor.failure.label "Настана грешка!">
+<!ENTITY aboutTor.failure2.label "Tor не работи во овој прелистувач.">
+
+<!ENTITY aboutTor.search.label "Пребарај со DuckDuckGo">
+<!ENTITY aboutTor.searchDDGPost.link "https://duckduckgo.com">
+
+<!ENTITY aboutTor.torbrowser_user_manual_questions.label "Прашања?">
+<!ENTITY aboutTor.torbrowser_user_manual_link.label "Провери го Tor Browser Упатството »">
+<!-- The next two entities are used within the browser's Help menu. -->
+<!ENTITY aboutTor.torbrowser_user_manual.accesskey "М">
+<!ENTITY aboutTor.torbrowser_user_manual.label "Tor Browser Упатство">
+
+<!ENTITY aboutTor.tor_mission.label "Tor Project е US 501(c)(3) не-профитна организација која ги унапредува човековите права и слободи со креирање и имплементирање на слободни и отворен-код технологии за анонимност и приватност, поддржувајќи ги нивната неограничена достапност и употреба, како и нивното понатамошно научно и популарно разбирање.">
+<!ENTITY aboutTor.getInvolved.label "Приклучете се »">
+<!ENTITY aboutTor.getInvolved.link "https://www.torproject.org/getinvolved/volunteer.html.en">
+
+<!ENTITY aboutTor.newsletter.tagline "Добијте ги најновите вести од Tor директно во вашето сандаче.">
+<!ENTITY aboutTor.newsletter.link_text "Пријавете се за Tor Вести.">
+<!ENTITY aboutTor.donationBanner.line2e "Чувај го Tor силен.">
+<!ENTITY aboutTor.donationBanner.buttonA "Донирај сега">
+
+<!-- End of year 2019 Fundraising campaign -->
+<!ENTITY aboutTor.ey2019.mozilla "Донирај денес, и Mozilla ќе ја поврзе Вашата донација.">
+<!ENTITY aboutTor.ey2019.tracking "Следењето, надзорот, и цензурата се раширени насекаде низ Интернетот.">
+<!ENTITY aboutTor.ey2019.takeback "Вратете го назад вашиот Интернет со Tor">

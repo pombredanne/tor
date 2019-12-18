@@ -1,0 +1,37 @@
+<!--
+   - Copyright (c) 2018, The Tor Project, Inc.
+   - See LICENSE for licensing information.
+   - vim: set sw=2 sts=2 ts=8 et syntax=xml:
+  -->
+
+<!ENTITY aboutTor.title "عن تور">
+
+<!ENTITY aboutTor.viewChangelog.label "الإطلاع على سجل التغيرات">
+
+<!ENTITY aboutTor.ready.label "تصفح بكل خصوصية.">
+<!ENTITY aboutTor.ready2.label "أنت جاهز الآن لتجربة التصفح الأكثر خصوصية في العالم.">
+<!ENTITY aboutTor.failure.label "حدث خطأ ما!">
+<!ENTITY aboutTor.failure2.label "تور لا يعمل في هذا المتصفح.">
+
+<!ENTITY aboutTor.search.label "ابحث بواسطة داك داك غو">
+<!ENTITY aboutTor.searchDDGPost.link "https://duckduckgo.com">
+
+<!ENTITY aboutTor.torbrowser_user_manual_questions.label "أية أسئلة؟">
+<!ENTITY aboutTor.torbrowser_user_manual_link.label "اطّلع على دليل استخدام متصفح تور ">
+<!-- The next two entities are used within the browser's Help menu. -->
+<!ENTITY aboutTor.torbrowser_user_manual.accesskey "س">
+<!ENTITY aboutTor.torbrowser_user_manual.label "دليل استخدام متصفّح تور">
+
+<!ENTITY aboutTor.tor_mission.label "مشرع تور منظمة غير ربحية أميريكية خاضعة لقانون 501(c)(3)، تعمل على تقدم حقوق الإنسان وحرياته، عبر إنشاء واستخدام تقنيات حرة ومفتوحة المصدر للمجهولية والخصوصية، وتدعم توفرها واستخدامها دون قيود، وتدعم تقدم الفهم العلمي والشعبي لهذه التقنيات.">
+<!ENTITY aboutTor.getInvolved.label "شارك">
+<!ENTITY aboutTor.getInvolved.link "https://www.torproject.org/getinvolved/volunteer.html.en">
+
+<!ENTITY aboutTor.newsletter.tagline "احصل على آخر أخبار تور مباشرة على بريدك">
+<!ENTITY aboutTor.newsletter.link_text "اشترك للحصول على أخبار تور.">
+<!ENTITY aboutTor.donationBanner.line2e "حافظ على قوة تور.">
+<!ENTITY aboutTor.donationBanner.buttonA "تبرع الآن">
+
+<!-- End of year 2019 Fundraising campaign -->
+<!ENTITY aboutTor.ey2019.mozilla "تبرع اليوم، وستجاريك موزيلا وتبرع بنفس المبلغ.">
+<!ENTITY aboutTor.ey2019.tracking "ينتشر التّتبُّع والرقابة والحجب على صعيد واسع في الانترنت">
+<!ENTITY aboutTor.ey2019.takeback "استعد السيطرة على الانترنت مع تور Tor">

@@ -1,0 +1,37 @@
+<!--
+   - Copyright (c) 2018, The Tor Project, Inc.
+   - See LICENSE for licensing information.
+   - vim: set sw=2 sts=2 ts=8 et syntax=xml:
+  -->
+
+<!ENTITY aboutTor.title "Over Tor">
+
+<!ENTITY aboutTor.viewChangelog.label "Wijzigingslogboek bekijken">
+
+<!ENTITY aboutTor.ready.label "Verken. Privé.">
+<!ENTITY aboutTor.ready2.label "U bent klaar voor de meest private surfervaring ter wereld.">
+<!ENTITY aboutTor.failure.label "Er ging iets mis!">
+<!ENTITY aboutTor.failure2.label "Tor werkt niet in deze browser.">
+
+<!ENTITY aboutTor.search.label "Zoeken met DuckDuckGo">
+<!ENTITY aboutTor.searchDDGPost.link "https://duckduckgo.com/">
+
+<!ENTITY aboutTor.torbrowser_user_manual_questions.label "Vragen?">
+<!ENTITY aboutTor.torbrowser_user_manual_link.label "Bekijk onze Tor-browserhandleiding »">
+<!-- The next two entities are used within the browser's Help menu. -->
+<!ENTITY aboutTor.torbrowser_user_manual.accesskey "H">
+<!ENTITY aboutTor.torbrowser_user_manual.label "Tor-browserhandleiding">
+
+<!ENTITY aboutTor.tor_mission.label "Het Tor-project is een 501(c)(3)-non-profitorganisatie in de VS die rechten en vrijheden van de mens bevordert door het ontwikkelen en implementeren van vrije anonimiteits- en privacytechnologieën, de onbeperkte beschikbaarheid en het gebruik ervan te steunen, en het begrip ervan in de wetenschap en bij het algemeen publiek te bevorderen.">
+<!ENTITY aboutTor.getInvolved.label "Doe mee »">
+<!ENTITY aboutTor.getInvolved.link "https://www.torproject.org/getinvolved/volunteer.html.en">
+
+<!ENTITY aboutTor.newsletter.tagline "Ontvang het laatste nieuws van Tor direct in uw postvak.">
+<!ENTITY aboutTor.newsletter.link_text "Meld u aan voor de Tor-nieuwsbrief.">
+<!ENTITY aboutTor.donationBanner.line2e "Houd Tor sterk.">
+<!ENTITY aboutTor.donationBanner.buttonA "Doneer nu">
+
+<!-- End of year 2019 Fundraising campaign -->
+<!ENTITY aboutTor.ey2019.mozilla "Geef vandaag, en Mozilla geeft hetzelfde bedrag.">
+<!ENTITY aboutTor.ey2019.tracking "Volgen, toezicht en censuur zijn wijdverspreid online.">
+<!ENTITY aboutTor.ey2019.takeback "Pak het internet terug met Tor">

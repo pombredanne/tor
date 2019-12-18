@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   - Copyright (c) 2019, The Tor Project, Inc.
+   - See LICENSE for licensing information.
+   - vim: set sw=2 sts=2 ts=8 et syntax=xml:
+  -->
+
+<!DOCTYPE html [
+  <!ENTITY % htmlDTD
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "DTD/xhtml1-strict.dtd">
+  %htmlDTD;
+  <!ENTITY % globalDTD SYSTEM "chrome://global/locale/global.dtd">
+  %globalDTD;
+  <!ENTITY % aboutTorDTD SYSTEM "chrome://torbutton/locale/aboutTor.dtd">
+  %aboutTorDTD;
+  <!ENTITY % tbUpdateDTD SYSTEM "chrome://browser/locale/aboutTBUpdate.dtd">
+  %tbUpdateDTD;
+]>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Security-Policy" content="default-src chrome: resource:; script-src chrome: resource: 'unsafe-inline'; font-src data:;" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>&aboutTor.title;</title>
+  <link rel="stylesheet" type="text/css" media="all"
+        href="resource://torbutton-assets/aboutTorFonts.css"/>
+  <link rel="stylesheet" type="text/css" media="all"
+        href="resource://torbutton-assets/aboutTor.css"/>
+<script type="text/javascript">
+ <![CDATA[
+window.addEventListener("pageshow", function() {
+  let evt = new CustomEvent("AboutTorLoad", { bubbles: true });
+  document.dispatchEvent(evt);
+});
+]]>
+</script>
+</head>
+<body dir="&locale.dir;" ey2019="yes">
+  <div class="torcontent-container">
+    <div id="torbrowser-info">
+      <div id="torbrowser-version"/>
+      <div id="torbrowser-changelog-link"><a href="about:tbupdate">&aboutTor.viewChangelog.label;</a></div>
+    </div>
+    <img class="torcontent-logo" src="resource://torbutton-assets/torbrowser_mobile_logo.png"/>
+    <div id="torstatus" class="top">
+      <div class="hideIfTorOff hideIfHasBeenUpdated hideIfEY2019 torstatus-container">
+        <div class="heading1">&aboutTor.ready.label;</div>
+        <br/>
+        <div class="heading2">&aboutTor.ready2.label;</div>
+      </div>
+      <div class="hideIfTorOff hideIfHasBeenUpdated showIfEY2019 torstatus-container">
+        <div id="ey2019_banner">
+          <div id="ey2019_1">
+            <p id="ey2019_tracking">&aboutTor.ey2019.tracking;</p>
+          </div>
+          <div id="ey2019_2">
+            <h1 id="ey2019_takeback">&aboutTor.ey2019.takeback;</h1>
+          </div>
+          <div id="ey2019_3">
+            <a id="ey2019_donate" href="https://www.torproject.org/donate/donate-tbi-default">&aboutTor.donationBanner.buttonA;</a>
+            <a id="ey2019_donate_mobile" href="https://www.torproject.org/donate/donate-tbi-mobile-default">&aboutTor.donationBanner.buttonA;</a>
+            <p id="ey2019_mozilla">&aboutTor.ey2019.mozilla;</p>
+          </div>
+        </div>
+      </div>
+      <div class="showIfHasBeenUpdated torstatus-container">
+        <div class="heading1">&aboutTBUpdate.updated;</div>
+        <br/>
+        <div class="heading2">&aboutTBUpdate.linkPrefix;<a id="update-infolink">&aboutTBUpdate.linkLabel;</a>&aboutTBUpdate.linkSuffix;</div>
+      </div>
+      <div class="hideIfTorOn torstatus-container">
+        <div class="heading1">&aboutTor.failure.label;</div>
+        <br/>
+        <div class="heading2">&aboutTor.failure2.label;</div>
+      </div>
+    </div>
+
+    <div class="searchbox hideIfTorOff"> <!-- begin form based search -->
+      <form action="&aboutTor.searchDDGPost.link;" method="post">
+        <div class="searchwrapper">
+          <label class="searchlabel" for="search-text">&nbsp;</label>
+          <input name="q" id="search-text" placeholder="&aboutTor.search.label;"
+                 autocomplete="off" type="text"/>
+          <input name="b" id="search-button" value=""
+                 title="&aboutTor.search.label;"
+                 alt="&aboutTor.search.label;" type="submit"/>
+        </div>
+      </form>
+    </div>
+
+    <div id="bottom">
+      <p id="donate" class="moreInfoLink">&aboutTor.donationBanner.line2e;
+        <a id="ey2019_donate_bottom" href="https://www.torproject.org/donate/donate-tbi-default">&aboutTor.donationBanner.buttonA;</a>
+        <a id="ey2019_donate_mobile_bottom" href="https://www.torproject.org/donate/donate-tbi-mobile-default">&aboutTor.donationBanner.buttonA;</a>
+      </p>
+      <p id="manual" class="showForManual moreInfoLink">&aboutTor.torbrowser_user_manual_questions.label;
+        <a id="manualLink" target="_blank">&aboutTor.torbrowser_user_manual_link.label;</a></p>
+      <p id="newsletter" class="moreInfoLink"><img class="imageStyle" src="resource://torbutton-assets/icon-newsletter.png"/><br/>&aboutTor.newsletter.tagline;<br/>
+        <a href="https://newsletter.torproject.org">&aboutTor.newsletter.link_text; &#187;</a>
+      </p>
+      <p id="mission">&aboutTor.tor_mission.label;
+        <a href="&aboutTor.getInvolved.link;">&aboutTor.getInvolved.label;</a></p>
+    </div>
+  </div>
+
+<!--
+   - The abstract onion pattern begins here. There are two
+   - "onion-pattern-row" elements, each containing 14 circles. The width
+   - of "onion-pattern-row" is fixed at a value that is wide enough so the
+   - circles are not distorted by the flex-based layout. The parent
+   - "onion-pattern-container" element has overflow-x: hidden and is designed
+   - to expand to the width of the page, until it reaches a maximum width
+   - that can accommodate all 14 circles. Since the rows are wider than
+   - most browser windows, typically the two rows of onions will fill the
+   - bottom of the page. On really wide pages, the onions are centered at
+   - the bottom of the page.
+  -->
+  <div class="onion-pattern-container">
+    <div class="onion-pattern-row">
+      <div class="circle solid"></div>
+
+      <div class="circle border"></div>
+
+      <div class="circle border">
+        <div class="inner border"></div>
+        <div class="inner border"></div>
+        <div class="inner border"></div>
+      </div>
+
+      <div class="circle">
+        <div class="half solid"></div>
+        <div class="half dotted"></div>
+      </div>
+
+      <div class="circle dotted"></div>
+
+      <div class="circle dotted">
+        <div class="inner dotted"></div>
+        <div class="inner dotted"></div>
+        <div class="inner dotted"></div>
+      </div>
+
+      <div class="circle dashed"></div>
+
+      <div class="circle dashed">
+        <div class="inner dashed"></div>
+        <div class="inner dashed"></div>
+        <div class="inner dashed"></div>
+      </div>
+
+      <div class="circle bold"></div>
+
+      <div class="circle solid"></div>
+
+      <div class="circle dotted">
+        <div class="inner dotted"></div>
+        <div class="inner dotted"></div>
+        <div class="inner dotted"></div>
+      </div>
+
+      <div class="circle border">
+        <div class="inner border"></div>
+        <div class="inner border"></div>
+        <div class="inner border"></div>
+      </div>
+
+      <div class="circle">
+        <div class="half solid"></div>
+        <div class="half solid"></div>
+      </div>
+
+     <div class="circle dashed">
+        <div class="inner dashed"></div>
+        <div class="inner dashed"></div>
+        <div class="inner dashed"></div>
+      </div>
+
+      <div class="circle dotted"></div>
+
+      <div class="circle dotted">
+        <div class="inner dotted"></div>
+        <div class="inner dotted"></div>
+        <div class="inner dotted"></div>
+      </div>
+
+      <div class="circle dashed"></div>
+
+      <div class="circle dashed">
+        <div class="inner dashed"></div>
+        <div class="inner dashed"></div>
+        <div class="inner dashed"></div>
+      </div>
+
+      <div class="circle bold"></div>
+
+      <div class="circle solid"></div>
+    </div>
+
+    <div class="onion-pattern-row onion-pattern-offset-row">
+      <div class="circle dashed">
+        <div class="inner dashed"></div>
+        <div class="inner dashed"></div>
+        <div class="inner dashed"></div>
+      </div>
+
+      <div class="circle bold"></div>
+
+      <div class="circle solid"></div>
+
+      <div class="circle dotted">
+        <div class="inner dotted"></div>
+        <div class="inner dotted"></div>
+        <div class="inner dotted"></div>
+      </div>
+
+      <div class="circle border">
+        <div class="inner border"></div>
+        <div class="inner border"></div>
+        <div class="inner border"></div>
+      </div>
+
+      <div class="circle">
+        <div class="half solid"></div>
+        <div class="half solid"></div>
+      </div>
+
+     <div class="circle dashed">
+        <div class="inner dashed"></div>
+        <div class="inner dashed"></div>
+        <div class="inner dashed"></div>
+      </div>
+
+      <div class="circle solid"></div>
+
+      <div class="circle border"></div>
+
+      <div class="circle border">
+        <div class="inner border"></div>
+        <div class="inner border"></div>
+        <div class="inner border"></div>
+      </div>
+
+      <div class="circle">
+        <div class="half solid"></div>
+        <div class="half dotted"></div>
+      </div>
+
+      <div class="circle dotted"></div>
+
+      <div class="circle dotted">
+        <div class="inner dotted"></div>
+        <div class="inner dotted"></div>
+        <div class="inner dotted"></div>
+      </div>
+
+      <div class="circle dashed"></div>
+
+      <div class="circle solid"></div>
+
+      <div class="circle dashed">
+        <div class="inner dashed"></div>
+        <div class="inner dashed"></div>
+        <div class="inner dashed"></div>
+      </div>
+
+      <div class="circle border">
+        <div class="inner border"></div>
+        <div class="inner border"></div>
+        <div class="inner border"></div>
+      </div>
+
+      <div class="circle">
+        <div class="half solid"></div>
+        <div class="half solid"></div>
+      </div>
+
+      <div class="circle dotted">
+        <div class="inner dotted"></div>
+        <div class="inner dotted"></div>
+        <div class="inner dotted"></div>
+      </div>
+
+      <div class="circle">
+        <div class="half solid"></div>
+        <div class="half dotted"></div>
+      </div>
+
+      <div class="circle dotted"></div>
+    </div>
+  </div>
+</body>
+</html>

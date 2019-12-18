@@ -1,0 +1,458 @@
+/*
+ * Copyright (c) 2019, The Tor Project, Inc.
+ * See LICENSE for licensing information.
+ *
+ * vim: set sw=2 sts=2 ts=8 et syntax=css:
+ */
+
+:root {
+  --abouttor-text-color: white;
+  --abouttor-bg-toron-color: #420C5D;
+  --abouttor-bg-toroff-color: #A4000F;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin: 0px auto;
+  padding: 0px 0px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: var(--abouttor-text-color);
+  background-color: var(--abouttor-bg-toroff-color);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+body[toron] {
+  background-color: var(--abouttor-bg-toron-color);
+}
+
+/* Hide the entire document by default to avoid showing the incorrect
+ * Tor on / off status (that info must be retrieved from the chrome
+ * process, which involves IPC when multiprocess mode is enabled). An
+ * initialized attribute will be added as soon as the status is known.
+ */
+body:not([initialized]) {
+  display: none;
+}
+
+.torcontent-container {
+  margin: 40px 20px 28px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 900px) {
+  .torcontent-container {
+    margin: 40px auto 28px auto;
+    max-width: 1000px;
+  }
+}
+
+#torbrowser-info {
+  position: absolute;
+  top: 16px;
+  offset-inline-end: 16px;
+  inset-inline-end: 16px;
+  height: 36px;
+  width: 200px;
+}
+
+#torbrowser-info div {
+  font-size: 14px;
+  white-space: pre-wrap;
+  text-align: end;
+  margin-bottom: 6px;
+}
+
+/* Hide "View Changelog" link if update channel is not release or alpha. */
+body:not([updatechannel="release"]):not([updatechannel="alpha"]) #torbrowser-changelog-link {
+  display: none;
+}
+
+a {
+  color: var(--abouttor-text-color);
+}
+
+#torstatus {
+  margin-top: 135px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-end;
+  vertical-align: bottom;
+  min-height: 92px;
+}
+
+body:not([ey2019]) .top {
+  white-space: nowrap;
+}
+
+.torstatus-container {
+  text-align: center;
+}
+
+body[hasbeenupdated] .hideIfHasBeenUpdated,
+body[toron] .hideIfTorOn,
+body:not([toron]) .hideIfTorOff {
+  display: none;
+}
+
+body:not([hasbeenupdated]) .showIfHasBeenUpdated,
+body:not([showmanual]) .showForManual {
+  display: none;
+}
+
+.torstatus-container * {
+  text-align: center;
+}
+
+.top div.hideIfTorOff .heading1 {
+  margin-top: 20px;
+}
+
+.top .heading1 {
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.top .heading2 {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+#bottom {
+  margin-top: 10vh;
+}
+
+#bottom p {
+  font-size: 10px;
+  text-align: start;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+@media only screen and (min-width: 900px) {
+  #bottom p {
+    margin: 0px 135px 0px 135px;
+  }
+}
+
+#bottom p:last-child {
+  padding-bottom: 0px;
+}
+
+#bottom p.moreInfoLink {
+  font-size: 15px;
+}
+
+#bottom img.imageStyle {
+  padding-inline-end: 10px;
+}
+
+/* Hide the linebreaks on large enough screens (desktops, laptops, and
+ * tablets).
+ */
+@media only screen and (min-width: 768px) {
+  #bottom br {
+    display: none;
+  }
+}
+
+.searchbox form {
+  width: 500px;
+  margin: 39px auto 0px auto;
+  text-align: left;
+}
+
+@media only screen and (max-width: 540px) {
+  .searchbox form {
+    width: auto !important;
+  }
+}
+
+.searchwrapper {
+  display: flex;
+  height: 46px;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.searchlabel {
+  height: auto;
+  width: 50px;
+  display: inline-block;
+  background: url('chrome://torbutton/skin/searchLogo.png') no-repeat center center;
+  background-size: 30px 30px;
+}
+
+#search-button {
+  height: auto;
+  width: 36px;
+  border: 0;
+  background: url('chrome://torbutton/skin/forwardArrow.png') no-repeat center center;
+  background-size: 16px 14px;
+  cursor: pointer;
+}
+
+#search-button:hover {
+  background-color: rgba(12, 12, 13, 0.1);  /* same as Firefox's about:home */
+}
+
+/* #search-text is the search input field */
+#search-text {
+  flex: 1;
+  border: none;
+  padding: 4px 2px 5px 2px;
+  margin: 0;
+  font-size: 15px;
+}
+
+.onion-pattern-container {
+  flex: auto;           /* grow to consume remaining space on the page */
+  display: flex;
+  flex-direction: column;
+  justify-content: end; /* position circles at the bottom */
+  margin: 0px auto;
+  width: 100%;
+  max-width: 2200px;    /* room for our 20 circles */
+  min-height: 232px;    /* room for 2 rows of circles */
+  overflow-x: hidden;   /* clip extra circles on the sides */
+}
+
+.onion-pattern-row {
+  width: 2200px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.onion-pattern-offset-row {
+  left: -40px;
+}
+
+/* With borders, circles range in size from 100 x 100px to 116 x 116px. */
+.circle {
+  opacity: 0.2;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.inner {
+  position: absolute;
+}
+
+.inner:nth-child(1){
+  transform: translate(calc(12.5% - 2px),calc(12.5% - 2px));
+  width: calc(100% * 0.75);
+  height: calc(100% * 0.75);
+  border-radius: 50%;
+}
+
+.inner:nth-child(2){
+  transform: translate(calc(40% - 2px),calc(40% - 2px));
+  width: calc(100% * 0.5);
+  height: calc(100% * 0.5);
+  border-radius: 50%;
+}
+
+.inner:nth-child(3){
+  transform: translate(calc(108% - 2px),calc(108% - 2px));
+  width: calc(100% * 0.25);
+  height: calc(100% * 0.25);
+  border-radius: 50%;
+}
+
+.solid {
+  background-color: #fff;
+}
+
+.border {
+  border: 4px solid #fff;
+}
+
+.dashed {
+  border: 4px dashed #fff;
+}
+
+.dotted {
+  border: 4px dotted #fff;
+}
+
+.bold {
+  border: 8px solid #fff;
+}
+
+.half {
+  width: 100px;
+  height: 50px;
+  border-radius: 50px 50px 0 0;
+}
+
+/*
+ * Mobile specific css
+ */
+
+.torcontent-logo {
+  display: none;
+}
+
+body[mobile] #torbrowser-changelog-link,
+body[mobile] .searchbox,
+body[mobile] .top .heading2,
+body[mobile] #manual,
+body[mobile] #mission {
+  display: none;
+}
+
+body[mobile] .top {
+  white-space: normal;
+  margin-top: 0px !important;
+}
+
+body[mobile] .torcontent-logo {
+  display: block;
+  margin-top: 20px;
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body[mobile] .top .heading1 {
+  font-size: 62px;
+  line-height: 1.1
+}
+
+body[mobile] .onion-pattern-container {
+  flex: none;
+  z-index: -1; /* ensure that circles do not block access to clickable links */
+  position: absolute;
+  bottom: 0px;
+}
+
+/* End of year 2019 Fundraising campaign */
+body[toron][ey2019] {
+  background-color: black;
+}
+
+body[ey2019] .searchbox form {
+  width: 500px;
+  margin: 3px auto 0px auto;
+  text-align: left;
+}
+
+body[ey2019] .torcontent-logo {
+  display: none!important;
+}
+
+#ey2019_1 {
+  margin-bottom: 30px;
+}
+
+#ey2019_2 {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+#ey2019_3 {
+  padding-bottom: 30px;
+  text-align: left;
+}
+
+#ey2019_tracking {
+  color: lime;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: left;
+  max-width: 305px;
+}
+
+#ey2019_takeback {
+  color: lime;
+  font-family: 'LeagueGothic', sans-serif;
+  font-size: 60px;
+  line-height: 52px;
+  text-transform: uppercase;
+  width: 245px;
+  font-synthesis: style;
+  text-align: left;
+}
+
+#ey2019_donate_mobile,
+#ey2019_donate {
+  border: 3px solid blueViolet;
+  background: black;
+  color: white;
+  padding: 0.2em 0.8em;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-family: 'LeagueGothic', sans-serif;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 35px;
+  vertical-align: super;
+}
+
+#ey2019_donate_mobile,
+#ey2019_donate:hover {
+  background: blueViolet;
+  color: black;
+}
+
+#ey2019_mozilla {
+  color: white;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 14px;
+  font-weight: 400;
+  display: inline-block;
+  max-width: 300px;
+  text-align: left;
+  margin-top: 10px;
+}
+
+#ey2019_banner {
+  background-image: url('Take_Back_Monochrome_purple.png');
+  background-size: contain;
+  background-position: 90% 100%;
+  background-repeat: no-repeat;
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+body[ey2019] #torstatus {
+  margin-top: 40px;
+}
+
+body:not([ey2019]) .showIfEY2019,
+body[ey2019] .hideIfEY2019 {
+  display: none;
+}
+
+body:not([mobile]) #ey2019_donate_mobile,
+body:not([mobile]) #ey2019_donate_mobile_bottom {
+  display: none;
+}
+
+body[mobile] #ey2019_donate,
+body[mobile] #ey2019_donate_bottom {
+  display: none;
+}

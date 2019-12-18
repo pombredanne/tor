@@ -1,0 +1,8 @@
+<!ENTITY aboutTBUpdate.changelogTitle "Αρχείο αλλαγών του Tor Browser">
+<!ENTITY aboutTBUpdate.updated "Ο Tor Browser αναβαθμίστηκε.">
+<!ENTITY aboutTBUpdate.linkPrefix "Για τις πιο πρόσφατες πληροφορίες για αυτή την έκδοση,">
+<!ENTITY aboutTBUpdate.linkLabel  "επισκεφθείτε την ιστοσελίδα μας">
+<!ENTITY aboutTBUpdate.linkSuffix ".">
+<!ENTITY aboutTBUpdate.version "Έκδοση">
+<!ENTITY aboutTBUpdate.releaseDate "Ημερομηνία έκδοσης">
+<!ENTITY aboutTBUpdate.releaseNotes "Σημειώσεις έκδοσης">

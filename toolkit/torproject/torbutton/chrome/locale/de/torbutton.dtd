@@ -1,0 +1,52 @@
+<!ENTITY torbutton.context_menu.new_identity "Neue Identität">
+<!ENTITY torbutton.context_menu.new_identity_key "I">
+<!ENTITY torbutton.context_menu.new_circuit "Neuer Kanal für diese Seite">
+<!ENTITY torbutton.context_menu.new_circuit_key "K">
+<!ENTITY torbutton.context_menu.networksettings "Tor-Netzwerk-Einstellungen …">
+<!ENTITY torbutton.context_menu.networksettings.key "N">
+<!ENTITY torbutton.context_menu.downloadUpdate "Auf Tor-Browser-Aktualisierungen prüfen …">
+<!ENTITY torbutton.context_menu.downloadUpdate.key "A">
+<!ENTITY torbutton.context_menu.cookieProtections "Cookie-Schutz …">
+<!ENTITY torbutton.context_menu.cookieProtections.key "C">
+<!ENTITY torbutton.button.tooltip "Klicken, um Torbutton zu aktivieren">
+<!ENTITY torbutton.prefs.security_settings "Tor-Browser-Sicherheitseinstellungen">
+<!ENTITY torbutton.cookiedialog.title "Cookie-Schutz verwalten">
+<!ENTITY torbutton.cookiedialog.lockCol "Geschützt">
+<!ENTITY torbutton.cookiedialog.domainCol "Rechner">
+<!ENTITY torbutton.cookiedialog.nameCol "Name">
+<!ENTITY torbutton.cookiedialog.pathCol "Pfad">
+<!ENTITY torbutton.cookiedialog.protectCookie "Cookie schützen">
+<!ENTITY torbutton.cookiedialog.removeCookie "Cookie entfernen">
+<!ENTITY torbutton.cookiedialog.unprotectCookie "Cookie nicht schützen">
+<!ENTITY torbutton.cookiedialog.removeAllBut "Alle außer den geschützten Cookies entfernen">
+<!ENTITY torbutton.cookiedialog.saveAllCookies "Neue Cookies schützen">
+<!ENTITY torbutton.cookiedialog.doNotSaveAllCookies "Neue Cookies nicht schützen">
+<!ENTITY torbutton.prefs.sec_caption "Sicherheitsstufe">
+<!ENTITY torbutton.prefs.sec_caption_tooltip "Mit dem Sicherheitsschieberegler kannst du bestimmte Browserfunktionen, die deinen Browser für mögliche Attacken anfälliger machen, deaktivieren.">
+<!ENTITY torbutton.prefs.sec_standard_label "Standard">
+<!ENTITY torbutton.prefs.sec_standard_description "Alle Tor Browser und Webseiten Funktionen sind aktiviert.">
+<!ENTITY torbutton.prefs.sec_safer_label "Sicherer">
+<!ENTITY torbutton.prefs.sec_safer_description "Deaktiviert Webseiten-Funktionen, die oft gefährlich sind. Sorgt dafür, dass manche Seiten nicht mehr so gut funktionieren">
+<!ENTITY torbutton.prefs.sec_safer_list_label "In der sicheren Einstellung:">
+<!ENTITY torbutton.prefs.sec_safest_label "Am sichersten">
+<!ENTITY torbutton.prefs.sec_safest_description "Erlaubt nur Webseiten-Funktionen, die für statische Seiten und Basisdienste benötigt werden. Diese Änderungen betreffen Bilder, Medien und Skripte.">
+<!ENTITY torbutton.prefs.sec_safest_list_label "In der sichersten Einstellung:">
+<!ENTITY torbutton.prefs.sec_learn_more_label "Erfahre mehr">
+<!ENTITY torbutton.prefs.sec_js_on_https_sites_only "JavaScript ist auf Nicht-HTTTPS-Sites deaktiviert.">
+<!ENTITY torbutton.prefs.sec_js_disabled "JavaScript ist standardmäßig auf allen Seiten deaktiviert.">
+<!ENTITY torbutton.prefs.sec_limit_typography "Einige Schriftarten und mathematische Symbole sind deaktiviert.">
+<!ENTITY torbutton.prefs.sec_limit_graphics_and_typography "Einige Schriftarten, Symbole, mathematische Symbole und Bilder sind deaktiviert.">
+<!ENTITY torbutton.prefs.sec_click_to_play_media "Ton und Bild (HTML5-Medien) und WebGL sind Click-to-Play.">
+<!ENTITY torbutton.prefs.sec_custom_warning "Benutzerdefiniert">
+<!ENTITY torbutton.prefs.sec_overview "Deaktiviere bestimmte Webfunktionen, welche verwendet werden können, um deine Sicherheit und Anonymität anzugreifen.">
+<!ENTITY torbutton.prefs.sec_standard_tooltip "Sicherheitsstufe: Standard">
+<!ENTITY torbutton.prefs.sec_safer_tooltip "Sicherheitsstufe: Sicherer">
+<!ENTITY torbutton.prefs.sec_safest_tooltip "Sicherheitsstufe: Am sichersten">
+<!ENTITY torbutton.prefs.sec_custom_summary "Ihre benutzerdefinierten Browser-Einstellungen haben zu ungewöhnlichen Sicherheitseinstellungen geführt. Aus Gründen der Sicherheit und Privatsphäre empfehlen wir dir eine der vorgegebenen Sicherheitsstufen auszuwählen.">
+<!ENTITY torbutton.prefs.sec_restore_defaults "Standardeinstellungen wiederherstellen">
+<!ENTITY torbutton.prefs.sec_advanced_security_settings "Erweiterte Sicherheitseinstellungen …">
+<!ENTITY torbutton.circuit_display.title "Tor Kanal">
+<!ENTITY torbutton.circuit_display.new_circuit "Neuen Kanal für diese Seite">
+
+<!-- Onion services strings.  Strings are kept here for ease of translation. -->
+<!ENTITY torbutton.onionServices.authPrompt.tooltip "Open onion service client authentication prompt">

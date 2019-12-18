@@ -1,0 +1,52 @@
+<!ENTITY torbutton.context_menu.new_identity "Kimliği yenile">
+<!ENTITY torbutton.context_menu.new_identity_key "I">
+<!ENTITY torbutton.context_menu.new_circuit "Bu sitenin Tor devresini yenile">
+<!ENTITY torbutton.context_menu.new_circuit_key "C">
+<!ENTITY torbutton.context_menu.networksettings "Tor Ağı Ayarları...">
+<!ENTITY torbutton.context_menu.networksettings.key "N">
+<!ENTITY torbutton.context_menu.downloadUpdate "Tor Browser Güncelleme Denetimi...">
+<!ENTITY torbutton.context_menu.downloadUpdate.key "U">
+<!ENTITY torbutton.context_menu.cookieProtections "Çerez Koruması...">
+<!ENTITY torbutton.context_menu.cookieProtections.key "C">
+<!ENTITY torbutton.button.tooltip "Torbutton uygulamasını başlatmak için tıklayın">
+<!ENTITY torbutton.prefs.security_settings "Tor Browser Güvenlik Düzeyi Ayarı">
+<!ENTITY torbutton.cookiedialog.title "Çerez Koruması Yönetimi">
+<!ENTITY torbutton.cookiedialog.lockCol "Korunmuş">
+<!ENTITY torbutton.cookiedialog.domainCol "Sunucu">
+<!ENTITY torbutton.cookiedialog.nameCol "Ad">
+<!ENTITY torbutton.cookiedialog.pathCol "Yol">
+<!ENTITY torbutton.cookiedialog.protectCookie "Çerezi Koru">
+<!ENTITY torbutton.cookiedialog.removeCookie "Çerezi Sil">
+<!ENTITY torbutton.cookiedialog.unprotectCookie "Çerez Korumasını Kaldır">
+<!ENTITY torbutton.cookiedialog.removeAllBut "Korunanlar Dışında Tümünü Sil">
+<!ENTITY torbutton.cookiedialog.saveAllCookies "Yeni Çerezler Korunsun">
+<!ENTITY torbutton.cookiedialog.doNotSaveAllCookies "Yeni Çerezler Korunmasın">
+<!ENTITY torbutton.prefs.sec_caption "Güvenlik Düzeyi">
+<!ENTITY torbutton.prefs.sec_caption_tooltip "Güvenlik ayarı ile belirli web tarayıcı özeliklerini kapatabilirsiniz. Ancak bu durumda web tarayıcınız saldırılara karşı daha korumasız olur.">
+<!ENTITY torbutton.prefs.sec_standard_label "Standart">
+<!ENTITY torbutton.prefs.sec_standard_description "Tüm Tor Browser ve web sitesi özellikleri kullanılabilir.">
+<!ENTITY torbutton.prefs.sec_safer_label "Daha Güvenli">
+<!ENTITY torbutton.prefs.sec_safer_description "Sıklıkla tehlikeli olan web sitesi özellikleri devre dışı bırakılır ve bazı sitelerin işlevlerinde kayıplar olabilir. ">
+<!ENTITY torbutton.prefs.sec_safer_list_label "Daha güvenli ayarlar kullanıldığında:">
+<!ENTITY torbutton.prefs.sec_safest_label "En Güvenli">
+<!ENTITY torbutton.prefs.sec_safest_description "Yalnız durağan siteler ve temel hizmetler için gerekli web sitesi özelliklerine izin verilir. Bu değişiklikler görselleri, ortamları ve betikleri etkiler.">
+<!ENTITY torbutton.prefs.sec_safest_list_label "En güvenli ayarlar kullanıldığında:">
+<!ENTITY torbutton.prefs.sec_learn_more_label "Ayrıntılı bilgi alın">
+<!ENTITY torbutton.prefs.sec_js_on_https_sites_only "JavaScript, HTTPS kullanmayan sitelerde devre dışı bırakılır.">
+<!ENTITY torbutton.prefs.sec_js_disabled "JavaScript betikleri tüm sitelerde varsayılan olarak devre dışı bırakılır.">
+<!ENTITY torbutton.prefs.sec_limit_typography "Bazı yazı türleri ve matematik simgeleri devre dışı bırakılır.">
+<!ENTITY torbutton.prefs.sec_limit_graphics_and_typography "Bazı yazı türleri, simgeler, matematik simgeleri ve görseller devre dışı bırakılır.">
+<!ENTITY torbutton.prefs.sec_click_to_play_media "Ses ve görüntü (HTML5 ortamı) ve WebGL tıklayıp oynatılabilir.">
+<!ENTITY torbutton.prefs.sec_custom_warning "Özel">
+<!ENTITY torbutton.prefs.sec_overview "Güvenlik ve anonimliğinize saldırmak için kullanılacak belirli web özelliklerini devre dışı bırakır.">
+<!ENTITY torbutton.prefs.sec_standard_tooltip "Güvenlik Düzeyi : Standart">
+<!ENTITY torbutton.prefs.sec_safer_tooltip "Güvenlik Düzeyi : Daha Güvenli">
+<!ENTITY torbutton.prefs.sec_safest_tooltip "Güvenlik Düzeyi : En Güvenli">
+<!ENTITY torbutton.prefs.sec_custom_summary "Tarayıcınız standart olmayan özel güvenlik düzeyi ayarları kullanıyor. Güvenlik ve gizliliğinizi korumak için aşağıdaki varsayılan güvenlik ayarı düzeylerinden birini seçmeniz önerilir.">
+<!ENTITY torbutton.prefs.sec_restore_defaults "Varsayılanları Yükle">
+<!ENTITY torbutton.prefs.sec_advanced_security_settings "Gelişmiş Güvenlik Düzeyi Ayarları…">
+<!ENTITY torbutton.circuit_display.title "Tor Devresi">
+<!ENTITY torbutton.circuit_display.new_circuit "Bu Sitenin Devresini Yenile">
+
+<!-- Onion services strings.  Strings are kept here for ease of translation. -->
+<!ENTITY torbutton.onionServices.authPrompt.tooltip "Onion hizmeti istemi kimlik doğrulama penceresini aç">

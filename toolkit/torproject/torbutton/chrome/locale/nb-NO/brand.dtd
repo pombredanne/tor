@@ -1,0 +1,15 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY  brandShorterName      "Tor-nettleseren">
+<!ENTITY  brandShortName        "Tor-nettleseren">
+<!ENTITY  brandFullName         "Tor-nettleseren">
+<!ENTITY  vendorShortName       "Tor Project">
+<!ENTITY  trademarkInfo.part1   "&quot;Tor&quot; og &quot;Løk-logoen&quot; er registrerte varemerker tilhørende the Tor Project, Inc.">
+
+<!-- The following strings are for bug #10280's UI. We place them here for our translators -->
+<!ENTITY plugins.installed.find "Klikk for å laste inn installerte systemtillegg">
+<!ENTITY plugins.installed.enable "Skru på programtillegg">
+<!ENTITY plugins.installed.disable "Skru av programtillegg">
+<!ENTITY plugins.installed.disable.tip "Klikk for å blokkere innlasting av systemtillegg">

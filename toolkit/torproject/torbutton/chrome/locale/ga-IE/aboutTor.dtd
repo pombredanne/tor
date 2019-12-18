@@ -1,0 +1,37 @@
+<!--
+   - Copyright (c) 2018, The Tor Project, Inc.
+   - See LICENSE for licensing information.
+   - vim: set sw=2 sts=2 ts=8 et syntax=xml:
+  -->
+
+<!ENTITY aboutTor.title "Maidir le Tor">
+
+<!ENTITY aboutTor.viewChangelog.label "Féach ar an Logchomhad Athruithe">
+
+<!ENTITY aboutTor.ready.label "Brabhsáil. Príobháideachas.">
+<!ENTITY aboutTor.ready2.label "Tá tú réidh don bhrabhsálaí is príobháidí ar domhan.">
+<!ENTITY aboutTor.failure.label "Chuaigh rud éigin ar strae!">
+<!ENTITY aboutTor.failure2.label "Níl Tor ag obair sa bhrabhsálaí seo.">
+
+<!ENTITY aboutTor.search.label "Cuardach DuckDuckGo">
+<!ENTITY aboutTor.searchDDGPost.link "https://duckduckgo.com">
+
+<!ENTITY aboutTor.torbrowser_user_manual_questions.label "Ceisteanna?">
+<!ENTITY aboutTor.torbrowser_user_manual_link.label "Féach ar Lámhleabhar Bhrabhsálaí Tor »">
+<!-- The next two entities are used within the browser's Help menu. -->
+<!ENTITY aboutTor.torbrowser_user_manual.accesskey "M">
+<!ENTITY aboutTor.torbrowser_user_manual.label "Lámhleabhar Bhrabhsálaí Tor">
+
+<!ENTITY aboutTor.tor_mission.label "Eagraíocht neamhbhrabúis 501(c)(3) sna Stáit Aontaithe is ea Tionscadal Tor. An phríomhaidhm atá againn ná cearta daonna agus an tsaoirse a chur chun cinn trí theicneolaíochtaí oscailte agus saor in aisce a thacaíonn leis an bpríobháideachas ar líne a fhorbairt, na teicneolaíochtaí seo a scaipeadh gan srian agus a n-úsáid a spreagadh, agus tuiscint níos fearr ar chúrsaí príobháideachais a fhorbairt i measc an phobail.">
+<!ENTITY aboutTor.getInvolved.label "Glac Páirt »">
+<!ENTITY aboutTor.getInvolved.link "https://www.torproject.org/getinvolved/volunteer.html.en">
+
+<!ENTITY aboutTor.newsletter.tagline "Faigh an nuacht is déanaí maidir le Tor i do bhosca isteach.">
+<!ENTITY aboutTor.newsletter.link_text "Cláraigh le Nuachtlitir Tor.">
+<!ENTITY aboutTor.donationBanner.line2e "Cuir taca le Tor.">
+<!ENTITY aboutTor.donationBanner.buttonA "Tabhair síntiús airgid anois">
+
+<!-- End of year 2019 Fundraising campaign -->
+<!ENTITY aboutTor.ey2019.mozilla "Tabhair síntiús airgid inniu agus tabharfaidh Mozilla an méid céanna arís dúinn.">
+<!ENTITY aboutTor.ey2019.tracking "Tracking, surveillance, and censorship are widespread online.">
+<!ENTITY aboutTor.ey2019.takeback "Take back the Internet with Tor">

@@ -1,0 +1,52 @@
+<!ENTITY torbutton.context_menu.new_identity "Új személyazonosság">
+<!ENTITY torbutton.context_menu.new_identity_key "S">
+<!ENTITY torbutton.context_menu.new_circuit "Új Tor áramkör ehhez az oldalhoz">
+<!ENTITY torbutton.context_menu.new_circuit_key "S">
+<!ENTITY torbutton.context_menu.networksettings "Tor hálózati beállítások">
+<!ENTITY torbutton.context_menu.networksettings.key "N">
+<!ENTITY torbutton.context_menu.downloadUpdate "Tor Browser frissítések keresése">
+<!ENTITY torbutton.context_menu.downloadUpdate.key "U">
+<!ENTITY torbutton.context_menu.cookieProtections "Süti védelmek...">
+<!ENTITY torbutton.context_menu.cookieProtections.key "S">
+<!ENTITY torbutton.button.tooltip "Kattintson a Torbutton inicializálásához">
+<!ENTITY torbutton.prefs.security_settings "Tor Browser biztonsági beállítások">
+<!ENTITY torbutton.cookiedialog.title "Süti védelem kezelése">
+<!ENTITY torbutton.cookiedialog.lockCol "Védett">
+<!ENTITY torbutton.cookiedialog.domainCol "Állomás">
+<!ENTITY torbutton.cookiedialog.nameCol "Név">
+<!ENTITY torbutton.cookiedialog.pathCol "Útvonal">
+<!ENTITY torbutton.cookiedialog.protectCookie "Süti védelme">
+<!ENTITY torbutton.cookiedialog.removeCookie "Süti törlés">
+<!ENTITY torbutton.cookiedialog.unprotectCookie "Süti védelem eltávolítása">
+<!ENTITY torbutton.cookiedialog.removeAllBut "A védett kivételével az összes törlése">
+<!ENTITY torbutton.cookiedialog.saveAllCookies "Védje az új sütiket">
+<!ENTITY torbutton.cookiedialog.doNotSaveAllCookies "Ne védje az új sütiket">
+<!ENTITY torbutton.prefs.sec_caption "Biztonsági szint">
+<!ENTITY torbutton.prefs.sec_caption_tooltip "A Biztonsági Csúszóka lehetővé tesz, hogy kikapcsoljon olyan böngésző funkcionalitásokat, amik sebezhetővé teszik a törési kísérletekben.">
+<!ENTITY torbutton.prefs.sec_standard_label "Normál">
+<!ENTITY torbutton.prefs.sec_standard_description "Minden Tor Browser és weboldal szolgáltatás engedélyezve.">
+<!ENTITY torbutton.prefs.sec_safer_label "Biztonságosabb">
+<!ENTITY torbutton.prefs.sec_safer_description "Azon weboldal szolgáltatások tiltása, amelyek többnyire veszélyesek, ami néhány oldal működésének problémáit okozhatja.">
+<!ENTITY torbutton.prefs.sec_safer_list_label "A biztonságosabb beállítás után_">
+<!ENTITY torbutton.prefs.sec_safest_label "Legbiztonságosabb">
+<!ENTITY torbutton.prefs.sec_safest_description "Csak azon weboldal szolgáltatások engedélyezése, amelyek a statikus, vagy alap szolgáltatásokhoz szükségesek. Ezek a beállítások érintik a képeket, médiákat és scripteket.">
+<!ENTITY torbutton.prefs.sec_safest_list_label "A biztonságosabb beállítás után:">
+<!ENTITY torbutton.prefs.sec_learn_more_label "További információ">
+<!ENTITY torbutton.prefs.sec_js_on_https_sites_only "A JavaScript tiltott a nem-HTTPS oldalkon.">
+<!ENTITY torbutton.prefs.sec_js_disabled "A JavaScript alapértelmezetten tiltott minden oldalon.">
+<!ENTITY torbutton.prefs.sec_limit_typography "Néhány betűtípus és matematikai szimbólum tiltásra került.">
+<!ENTITY torbutton.prefs.sec_limit_graphics_and_typography "Néhány betűtípus, ikon és matematikai szimbólum és a képek tiltásra kerültek.">
+<!ENTITY torbutton.prefs.sec_click_to_play_media "Az audió és videó (HTML5 média) és a WebGL kattintásra indul.">
+<!ENTITY torbutton.prefs.sec_custom_warning "Egyéni">
+<!ENTITY torbutton.prefs.sec_overview "Néhány web szolgáltatás kikapcsolása, amit támadhatja biztonságát és anonimitását.">
+<!ENTITY torbutton.prefs.sec_standard_tooltip "Biztonsági szint: Normál">
+<!ENTITY torbutton.prefs.sec_safer_tooltip "Biztonsági szint: Biztonságosabb">
+<!ENTITY torbutton.prefs.sec_safest_tooltip "Biztonsági szint: Legbiztonságosabb">
+<!ENTITY torbutton.prefs.sec_custom_summary "Az Ön által eszközölt egyéni böngészői beállítások eredményeképp biztonsági kockázatok merülhetnek fel. Biztonsági és adatvédelmi szempontokból kérjük válasszon az alapértelmezett biztonsági szintek közül.">
+<!ENTITY torbutton.prefs.sec_restore_defaults "Alapértelmezések visszaállítása">
+<!ENTITY torbutton.prefs.sec_advanced_security_settings "Speciális biztonsági beállítások...">
+<!ENTITY torbutton.circuit_display.title "Tor áramkör">
+<!ENTITY torbutton.circuit_display.new_circuit "Új Tor áramkör ehhez az oldalhoz">
+
+<!-- Onion services strings.  Strings are kept here for ease of translation. -->
+<!ENTITY torbutton.onionServices.authPrompt.tooltip "Open onion service client authentication prompt">

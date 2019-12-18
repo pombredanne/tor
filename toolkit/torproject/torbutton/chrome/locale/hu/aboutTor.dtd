@@ -1,0 +1,37 @@
+<!--
+   - Copyright (c) 2018, The Tor Project, Inc.
+   - See LICENSE for licensing information.
+   - vim: set sw=2 sts=2 ts=8 et syntax=xml:
+  -->
+
+<!ENTITY aboutTor.title "A Tor-ról">
+
+<!ENTITY aboutTor.viewChangelog.label "Változás log megtekintése">
+
+<!ENTITY aboutTor.ready.label "Fedezzen fel. Privátan.">
+<!ENTITY aboutTor.ready2.label "Készen áll a világ legprivátabb böngészési élményére.">
+<!ENTITY aboutTor.failure.label "Valami nem jól működik!">
+<!ENTITY aboutTor.failure2.label "A Tor nem működik ebben a böngészőben.">
+
+<!ENTITY aboutTor.search.label "Keressen a DuckDuckGo-val">
+<!ENTITY aboutTor.searchDDGPost.link "https://duckduckgo.com">
+
+<!ENTITY aboutTor.torbrowser_user_manual_questions.label "Kérdések?">
+<!ENTITY aboutTor.torbrowser_user_manual_link.label "Tekintse meg a Tor Browser Útmutatónkat">
+<!-- The next two entities are used within the browser's Help menu. -->
+<!ENTITY aboutTor.torbrowser_user_manual.accesskey "M">
+<!ENTITY aboutTor.torbrowser_user_manual.label "Tor Browser Útmutató">
+
+<!ENTITY aboutTor.tor_mission.label "A Tor Project egy a US 501(c)(3) szerinti non-profit szervezet, amely az emberi jogokért és szabadságért harcol, nyílt forráskódú anonimitás és adatvédelmi technológiák fejlesztésével és terjesztésével, támogatva azok korlátlan elérhetőségét és használatát, támogassák a tudományos ás általános megértésüket.">
+<!ENTITY aboutTor.getInvolved.label "Vegyen részt">
+<!ENTITY aboutTor.getInvolved.link "https://www.torproject.org/getinvolved/volunteer.html.en">
+
+<!ENTITY aboutTor.newsletter.tagline "Kapja meg a legfrissebb Tor híreket közvetlenül email fiókjába.">
+<!ENTITY aboutTor.newsletter.link_text "Iratkozzon fel a Tor hírekhez.">
+<!ENTITY aboutTor.donationBanner.line2e "Tartsuk meg a Tor-t erősnek.">
+<!ENTITY aboutTor.donationBanner.buttonA "Támogasson most">
+
+<!-- End of year 2019 Fundraising campaign -->
+<!ENTITY aboutTor.ey2019.mozilla "Adjon ma és a Mozilla is annyival támogat.">
+<!ENTITY aboutTor.ey2019.tracking "A követés, megfigyelés és cenzúra széles körben elterjedt online.">
+<!ENTITY aboutTor.ey2019.takeback "Take back the Internet with Tor">

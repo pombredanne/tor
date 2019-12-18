@@ -1,0 +1,8 @@
+<!ENTITY aboutTBUpdate.changelogTitle "Cronologia Tor Browser">
+<!ENTITY aboutTBUpdate.updated "Il Tor Browser è stato aggiornato.">
+<!ENTITY aboutTBUpdate.linkPrefix "Per maggiori informazioni su questa versione,">
+<!ENTITY aboutTBUpdate.linkLabel  "visita il nostro sito web">
+<!ENTITY aboutTBUpdate.linkSuffix ".">
+<!ENTITY aboutTBUpdate.version "Versione">
+<!ENTITY aboutTBUpdate.releaseDate "Data di uscita">
+<!ENTITY aboutTBUpdate.releaseNotes "Note di rilascio">

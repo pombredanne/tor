@@ -1,0 +1,37 @@
+<!--
+   - Copyright (c) 2018, The Tor Project, Inc.
+   - See LICENSE for licensing information.
+   - vim: set sw=2 sts=2 ts=8 et syntax=xml:
+  -->
+
+<!ENTITY aboutTor.title "Tor Hakkında">
+
+<!ENTITY aboutTor.viewChangelog.label "Değişiklik Günlüğünü Görüntüle">
+
+<!ENTITY aboutTor.ready.label "Keşfedin. Gizlice.">
+<!ENTITY aboutTor.ready2.label "Dünyanın en kişisel web tarama deneyimine hazırsınız.">
+<!ENTITY aboutTor.failure.label "Bir Şeyler Ters Gitti!">
+<!ENTITY aboutTor.failure2.label "Tor bu tarayıcı ile çalışmıyor.">
+
+<!ENTITY aboutTor.search.label "DuckDuckGo ile Arayın">
+<!ENTITY aboutTor.searchDDGPost.link "https://duckduckgo.com">
+
+<!ENTITY aboutTor.torbrowser_user_manual_questions.label "Sorularınız mı var?">
+<!ENTITY aboutTor.torbrowser_user_manual_link.label "Tor Browser rehberine bakabilirsiniz">
+<!-- The next two entities are used within the browser's Help menu. -->
+<!ENTITY aboutTor.torbrowser_user_manual.accesskey "M">
+<!ENTITY aboutTor.torbrowser_user_manual.label "Tor Browser rehberi">
+
+<!ENTITY aboutTor.tor_mission.label "Tor Projesi, US 501(c)(3) koşullarına göre, özgür ve açık kaynaklı anonimlik ve kişisel gizlilik teknolojileri geliştirerek insan hakları ve özgürlüklerini ileriye götürmeyi, bu teknolojilerin bilimsel ve kültürel olarak bilinirliğini arttırmayı ve herkes tarafından erişebilmesini sağlamak amacıyla çalışan, kar amacı gütmeyen bir kuruluştur.">
+<!ENTITY aboutTor.getInvolved.label "Katkıda Bulunun »">
+<!ENTITY aboutTor.getInvolved.link "https://www.torproject.org/getinvolved/volunteer.html.en">
+
+<!ENTITY aboutTor.newsletter.tagline "Tor ile ilgili son gelişmeler doğrudan e-posta kutunuza gelsin.">
+<!ENTITY aboutTor.newsletter.link_text "Tor Duyurularına Abone Olun">
+<!ENTITY aboutTor.donationBanner.line2e "Tor uygulamasının gücünü koruyun.">
+<!ENTITY aboutTor.donationBanner.buttonA "Bağış Yapın">
+
+<!-- End of year 2019 Fundraising campaign -->
+<!ENTITY aboutTor.ey2019.mozilla "Bugün yaptığınız her bağış kadar Mozilla da bağış yapacak.">
+<!ENTITY aboutTor.ey2019.tracking "Çevrimiçi izleme, gözetim ve sansür uygulamaları yaygındır.">
+<!ENTITY aboutTor.ey2019.takeback "Tor kullanın İnterneti geri alın.">
